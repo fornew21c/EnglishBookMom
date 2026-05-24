@@ -848,11 +848,98 @@ main {
   .container { padding: 0 16px; }
 }
 
+/* ---------- Speakable (tap-to-pronounce) ---------- */
+.speak {
+  cursor: pointer;
+  position: relative;
+  display: inline;
+  padding: 1px 4px;
+  margin: 0 -2px;
+  border-radius: 4px;
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.speak:hover {
+  background: var(--color-en-soft);
+  color: var(--color-primary-dark);
+}
+
+.speak::after {
+  content: '🔊';
+  font-size: 0.65em;
+  margin-left: 4px;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  vertical-align: middle;
+}
+
+.speak:hover::after,
+.speak:focus::after {
+  opacity: 0.7;
+}
+
+.speak.speak-playing {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: 0 2px 8px rgba(224, 122, 95, 0.4);
+  animation: speak-pulse 1s ease-in-out infinite;
+}
+
+.speak.speak-playing::after {
+  content: '🔊';
+  opacity: 1;
+  animation: speak-bounce 0.6s ease-in-out infinite;
+}
+
+@keyframes speak-pulse {
+  0%, 100% { box-shadow: 0 2px 8px rgba(224, 122, 95, 0.4); }
+  50%      { box-shadow: 0 2px 14px rgba(224, 122, 95, 0.6); }
+}
+
+@keyframes speak-bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-2px); }
+}
+
+/* Vocab word's speak look — stronger, like a button */
+.vocab-word.speak {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--color-en-soft);
+  color: var(--color-primary-dark);
+}
+
+.vocab-word.speak:hover {
+  background: var(--color-primary);
+  color: white;
+}
+
+.vocab-word.speak::after {
+  opacity: 0.5;
+}
+
+/* Touch devices: always hint icon (no hover) */
+@media (hover: none) {
+  .speak::after { opacity: 0.45; }
+  .vocab-word.speak::after { opacity: 0.7; }
+}
+
 /* ---------- Print ---------- */
 @media print {
   .site-header, .site-footer, .chapter-nav, .actions, .site-nav {
     display: none !important;
   }
+  .speak {
+    background: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+    animation: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .speak::after { display: none !important; }
   body { background: white; }
   .section-block, .chapter-header, .summary-box {
     border: 1px solid #ddd;
