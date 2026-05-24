@@ -61,6 +61,18 @@ window.BOOKS = [
     color: 'color-6'
   },
   {
+    slug: 'dragon-trainer-1',
+    title: 'How to Train Your Dragon',
+    titleKo: '드래곤 길들이기',
+    series: 'How to Train Your Dragon #1',
+    seriesKo: '드래곤 길들이기 시리즈 1권',
+    ar: '6.6',
+    descKo: '바이킹 소년 히컵이 작고 이빨도 없는 못난 드래곤 투슬리스와 친구가 되어 마을을 구하는 이야기.',
+    aboutKo: '바이킹 부족장의 아들 히컵은 작고 약하지만 누구보다 똑똑한 소년. 모든 바이킹 소년이 거쳐야 할 \'드래곤 길들이기 시험\'에서 가장 작고 이빨 없는 드래곤 투슬리스를 잡습니다. 힘 대신 머리와 우정으로 어려움을 헤쳐 가는 명작. 글이 많고 단어 수준은 높지만 아이와 엄마가 함께 천천히 읽기 좋은 책이에요.',
+    emoji: '🐲',
+    color: 'color-5'
+  },
+  {
     slug: 'atoz-1',
     title: 'The Absent Author',
     titleKo: '사라진 작가',
