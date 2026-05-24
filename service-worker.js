@@ -1,6 +1,6 @@
 /* Service Worker for offline support
  * Caches static assets so the app works without network. */
-const CACHE_VERSION = 'ebm-v1';
+const CACHE_VERSION = 'ebm-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -12,9 +12,16 @@ const CORE_ASSETS = [
   './js/data/mth-2.js',
   './js/data/mth-3.js',
   './js/data/dragon-1.js',
+  './js/data/dragon-2.js',
+  './js/data/dragon-3.js',
   './js/data/dragon-trainer-1.js',
   './js/data/mercy-1.js',
+  './js/data/mercy-2.js',
+  './js/data/mercy-3.js',
   './js/data/atoz-1.js',
+  './js/data/atoz-2.js',
+  './js/data/atoz-3.js',
+  './js/data/atoz-4.js',
   './manifest.webmanifest',
   './icons/icon-192.svg',
   './icons/icon-512.svg'
