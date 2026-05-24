@@ -37,6 +37,60 @@
   }
 
   /* -------------------------------------------------- *
+   *  Text-to-Speech (English pronunciation on tap)
+   * -------------------------------------------------- */
+  const speechSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
+  let enVoice = null;
+
+  function pickEnglishVoice() {
+    if (!speechSupported) return;
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices || voices.length === 0) return;
+    enVoice =
+      voices.find(v => /en[-_]US/i.test(v.lang) && /Samantha|Google US English|Microsoft Aria|Microsoft Jenny|Karen|Natural/i.test(v.name)) ||
+      voices.find(v => /en[-_]US/i.test(v.lang)) ||
+      voices.find(v => /en[-_]GB/i.test(v.lang)) ||
+      voices.find(v => /^en/i.test(v.lang)) ||
+      null;
+  }
+  if (speechSupported) {
+    pickEnglishVoice();
+    window.speechSynthesis.onvoiceschanged = pickEnglishVoice;
+  }
+
+  function speak(text, el) {
+    if (!text) return;
+    if (!speechSupported) {
+      alert('이 브라우저는 발음 듣기 기능을 지원하지 않아요.\n크롬, 사파리, 엣지 등 최신 브라우저에서 사용해 주세요.');
+      return;
+    }
+    window.speechSynthesis.cancel();
+
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US';
+    u.rate = 0.9;
+    u.pitch = 1.0;
+    if (enVoice) u.voice = enVoice;
+
+    if (el) {
+      el.classList.add('speak-playing');
+      const clear = () => el.classList.remove('speak-playing');
+      u.onend = clear;
+      u.onerror = clear;
+    }
+    window.speechSynthesis.speak(u);
+  }
+
+  document.addEventListener('click', function (e) {
+    const target = e.target.closest && e.target.closest('.speak');
+    if (!target) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const text = target.dataset.speak || target.textContent.trim();
+    speak(text, target);
+  });
+
+  /* -------------------------------------------------- *
    *  Views
    * -------------------------------------------------- */
   function viewHome() {
@@ -112,7 +166,18 @@
         <h2>4. 영어 질문은 한 단계 더</h2>
         <p>한국어 질문이 익숙해지면 영어 질문도 도전해 보세요. 정답이 함께 있어서 엄마가 발음만 읽어 주어도 충분해요.</p>
 
-        <h2>5. 인쇄해서 활용하세요</h2>
+        <h2>5. 🔊 영어 발음은 탭하면 들려요</h2>
+        <p>발음에 자신이 없어도 괜찮아요. 챕터 페이지에서 <b>영어 단어나 문장을 탭(클릭)하면 자동으로 발음이 재생</b>됩니다. 브라우저에 내장된 영어 음성을 사용하므로 별도 설치는 필요 없어요.</p>
+        <div class="tips">
+          <h3>🔊 발음 듣기 팁</h3>
+          <ul>
+            <li>단어 칸의 영단어, 예문, 영어 질문/정답 모두 탭하면 발음돼요.</li>
+            <li>아이폰 사파리, 안드로이드 크롬, 데스크톱 크롬·엣지·사파리 모두 지원됩니다.</li>
+            <li>핸드폰은 무음 모드면 소리가 안 날 수 있어요. 볼륨을 확인해 주세요.</li>
+          </ul>
+        </div>
+
+        <h2>6. 인쇄해서 활용하세요</h2>
         <p>각 챕터 페이지에서 <b>인쇄 버튼</b>을 눌러 워크북처럼 사용할 수 있어요. 가족 독서 시간을 만들어 보세요.</p>
       </div>
     `;
@@ -186,9 +251,11 @@
 
     const vocabRows = (chapter.vocabulary || []).map(v => `
       <tr>
-        <td><span class="vocab-word">${escape(v.word)}</span>${v.pos ? `<span class="vocab-pos">${escape(v.pos)}</span>` : ''}</td>
+        <td>
+          <span class="vocab-word speak" data-speak="${escape(v.word)}" title="탭하면 발음을 들을 수 있어요">${escape(v.word)}</span>${v.pos ? `<span class="vocab-pos">${escape(v.pos)}</span>` : ''}
+        </td>
         <td class="vocab-mean">${escape(v.mean)}</td>
-        <td class="vocab-example">${v.example ? `"${escape(v.example)}"` : ''}${v.exampleKo ? `<span class="vocab-example-ko">${escape(v.exampleKo)}</span>` : ''}</td>
+        <td class="vocab-example">${v.example ? `<span class="speak" data-speak="${escape(v.example)}" title="탭하면 예문 발음을 들을 수 있어요">"${escape(v.example)}"</span>` : ''}${v.exampleKo ? `<span class="vocab-example-ko">${escape(v.exampleKo)}</span>` : ''}</td>
       </tr>
     `).join('');
 
@@ -197,11 +264,11 @@
         <details class="question-item">
           <summary>
             <span class="q-num">${i + 1}</span>
-            <span class="q-text">${escape(q.q)}${q.qKo ? `<span class="q-text-sub">↳ ${escape(q.qKo)}</span>` : ''}</span>
+            <span class="q-text"><span class="speak" data-speak="${escape(q.q)}" title="탭하면 발음을 들을 수 있어요">${escape(q.q)}</span>${q.qKo ? `<span class="q-text-sub">↳ ${escape(q.qKo)}</span>` : ''}</span>
           </summary>
           <div class="answer-box">
             <p class="answer-label">ANSWER</p>
-            <p class="answer-text">${escape(q.a)}${q.aKo ? `<span class="answer-text-sub">${escape(q.aKo)}</span>` : ''}</p>
+            <p class="answer-text"><span class="speak" data-speak="${escape(q.a)}" title="탭하면 발음을 들을 수 있어요">${escape(q.a)}</span>${q.aKo ? `<span class="answer-text-sub">${escape(q.aKo)}</span>` : ''}</p>
           </div>
         </details>
       </li>
@@ -233,7 +300,7 @@
 
       <section class="chapter-header">
         <p class="chapter-eyebrow">CHAPTER ${num} / ${totalCh}</p>
-        <h1 class="chapter-title">${escape(chapter.title)}</h1>
+        <h1 class="chapter-title"><span class="speak" data-speak="${escape(chapter.title)}" title="탭하면 발음을 들을 수 있어요">${escape(chapter.title)}</span></h1>
         ${chapter.titleKo ? `<p class="chapter-subtitle">${escape(chapter.titleKo)}</p>` : ''}
         ${chapter.summaryKo ? `
           <div class="summary-box">
@@ -249,7 +316,7 @@
 
       <section class="section-block">
         <h2>📚 단어 정리</h2>
-        <p class="lead">이 챕터에 등장하는 핵심 단어들이에요. 예문은 책에 비슷한 표현으로 등장해요.</p>
+        <p class="lead">이 챕터에 등장하는 핵심 단어들이에요. <strong>🔊 영어 단어나 예문을 탭하면 발음을 들을 수 있어요.</strong></p>
         <table class="vocab-table">
           <thead>
             <tr>
@@ -270,7 +337,7 @@
 
       <section class="section-block question-block en">
         <h2>🇺🇸 영어 질문 5개 <span class="lang-tag">EN</span></h2>
-        <p class="lead">영어 질문에 도전해 보세요. 한국어 번역과 정답이 함께 있어요.</p>
+        <p class="lead">영어 질문에 도전해 보세요. 한국어 번역과 정답이 함께 있어요. <strong>🔊 영어 문장을 탭하면 발음이 나와요.</strong></p>
         <ol class="questions">${enQs}</ol>
       </section>
 
