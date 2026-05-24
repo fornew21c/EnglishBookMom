@@ -3,8 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>엄마표 영어 원서 가이드 | AR 3점대 인기 도서</title>
+  <title>엄마표 영어 원서 가이드 | 인기 영어 원서 챕터북</title>
   <meta name="description" content="영어를 잘 못해도 괜찮아요. 아이와 함께 영어 원서를 읽을 수 있도록 챕터별 단어와 질문을 정리했습니다." />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#b8451a" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#13110d" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon-192.svg" />
+  <link rel="apple-touch-icon" href="icons/icon-192.svg" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="엄마표 원서" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- Set theme attribute BEFORE CSS loads to avoid flash -->
+  <script>
+    (function() {
+      try {
+        var s = localStorage.getItem('ebm:theme');
+        var pref = s ? JSON.parse(s) : 'auto';
+        var dark = pref === 'dark' || (pref === 'auto' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+      } catch (e) {}
+    })();
+  </script>
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +46,12 @@
       </a>
       <nav class="site-nav">
         <a href="#/" class="nav-link">전체 도서</a>
+        <a href="#/bookmarks" class="nav-link">내 단어장</a>
         <a href="#/guide" class="nav-link">사용 안내</a>
+        <button class="nav-toggle" id="theme-toggle" type="button" aria-label="라이트/다크 모드 전환" title="라이트/다크 모드 전환">
+          <span class="theme-icon theme-icon-light">☀️</span>
+          <span class="theme-icon theme-icon-dark">🌙</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -39,6 +67,9 @@
     </div>
   </footer>
 
+  <!-- Storage / theme — load early -->
+  <script src="js/storage.js"></script>
+
   <!-- Book Data -->
   <script src="js/data/mth-1.js"></script>
   <script src="js/data/mth-2.js"></script>
@@ -51,5 +82,14 @@
 
   <!-- App -->
   <script src="js/app.js"></script>
+
+  <!-- PWA registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js').catch(function () {});
+      });
+    }
+  </script>
 </body>
 </html>

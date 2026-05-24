@@ -1,0 +1,26 @@
+{
+  "name": "엄마표 영어 원서 가이드",
+  "short_name": "엄마표 원서",
+  "description": "영어가 서툰 엄마도 아이와 함께 인기 영어 원서를 챕터별 단어와 질문으로 읽어요.",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf8f3",
+  "theme_color": "#b8451a",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
