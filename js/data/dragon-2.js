@@ -4,467 +4,436 @@ window.BOOK_DATA['dragon-2'] = {
   chapters: [
     {
       number: 1,
-      title: 'Dragon Masters Training',
-      titleKo: '드래곤 마스터들의 훈련',
-      summaryKo: '드레이크, 아나, 로리, 보 네 명의 드래곤 마스터가 마법사 그리피스 아래에서 매일 함께 훈련을 합니다. 각자 자신의 드래곤과 더 깊이 연결되는 법을 배우고 있어요. 모두 점점 더 좋은 친구가 되어 가고 있습니다.',
+      title: 'Chapter 1: Dragons in the Sky',
+      titleKo: '하늘을 나는 드래곤들',
+      summaryKo: '드레이크, 로리, 아나, 보 그리고 마법사 그리피스가 밖에서 드래곤들이 나는 것을 지켜봐요. 웜, 벌컨, 케프리, 슈가 하늘을 날고 있지만 아나의 해 드래곤 케프리는 날고 싶어 하지 않아요. 케프리는 창백하고 피곤해 보이고, 드레이크는 케프리의 빛이 희미해진 것을 알아채요.',
       vocabulary: [
-        { word: 'training', pos: 'n.', mean: '훈련', example: 'The masters had training every day.', exampleKo: '마스터들은 매일 훈련을 했어요.' },
-        { word: 'wizard', pos: 'n.', mean: '마법사', example: 'Griffith is a wise wizard.', exampleKo: '그리피스는 지혜로운 마법사예요.' },
-        { word: 'connect', pos: 'v.', mean: '연결되다', example: 'Drake can connect with Worm.', exampleKo: '드레이크는 워름과 연결될 수 있어요.' },
-        { word: 'castle', pos: 'n.', mean: '성', example: 'They train inside the castle.', exampleKo: '그들은 성 안에서 훈련해요.' },
-        { word: 'master', pos: 'n.', mean: '마스터, 주인', example: 'Each master has one dragon.', exampleKo: '각 마스터는 한 마리의 드래곤이 있어요.' },
-        { word: 'practice', pos: 'v.', mean: '연습하다', example: 'They practice their powers.', exampleKo: '그들은 능력을 연습해요.' },
-        { word: 'together', pos: 'adv.', mean: '함께', example: 'They train together.', exampleKo: '그들은 함께 훈련해요.' },
-        { word: 'stone', pos: 'n.', mean: '돌', example: 'They hold their Dragon Stones.', exampleKo: '그들은 드래곤 스톤을 잡고 있어요.' },
-        { word: 'deep', pos: 'a.', mean: '깊은', example: 'A deep bond grows between them.', exampleKo: '그들 사이에 깊은 유대가 자라요.' }
+        { word: 'sky', pos: 'n.', mean: '하늘', example: 'The dragons flew in the sky.', exampleKo: '드래곤들이 하늘을 날았어요.' },
+        { word: 'glow', pos: 'n.', mean: '빛, 광채', example: "Kepri's glow was dim.", exampleKo: '케프리의 빛이 희미했어요.' },
+        { word: 'dim', pos: 'a.', mean: '희미한', example: 'Her light looked dim.', exampleKo: '그녀의 빛이 희미해 보였어요.' },
+        { word: 'pale', pos: 'a.', mean: '창백한', example: 'Kepri looked pale.', exampleKo: '케프리는 창백해 보였어요.' },
+        { word: 'tired', pos: 'a.', mean: '피곤한', example: 'The dragon felt tired.', exampleKo: '드래곤은 피곤했어요.' },
+        { word: 'watch', pos: 'v.', mean: '지켜보다', example: 'They watched the dragons fly.', exampleKo: '그들은 드래곤들이 나는 것을 지켜봤어요.' },
+        { word: 'notice', pos: 'v.', mean: '알아채다', example: 'Drake noticed something wrong.', exampleKo: '드레이크는 뭔가 잘못된 것을 알아챘어요.' },
+        { word: 'wing', pos: 'n.', mean: '날개', example: 'Kepri opened her wings slowly.', exampleKo: '케프리는 천천히 날개를 폈어요.' },
+        { word: 'fly', pos: 'v.', mean: '날다', example: 'Kepri did not want to fly.', exampleKo: '케프리는 날고 싶어 하지 않았어요.' }
       ],
       questionsKo: [
-        { q: '드래곤 마스터는 모두 몇 명이에요?', a: '드레이크, 아나, 로리, 보 네 명이에요.' },
-        { q: '누가 마스터들을 훈련시켜요?', a: '왕의 마법사 그리피스가 훈련시켜요.' },
-        { q: '그들은 어디서 훈련해요?', a: '왕의 성 안에서 훈련해요.' },
-        { q: '훈련에서 가장 중요한 것은 뭐예요?', a: '자신의 드래곤과 마음으로 더 깊이 연결되는 거예요.' },
-        { q: '여러분이 드래곤 마스터라면 매일 어떤 훈련을 하고 싶어요?', a: '예시: 드래곤을 타고 하늘을 나는 비행 훈련을 매일 해 보고 싶어요.' }
+        { q: '누가 함께 드래곤들이 나는 것을 보고 있었어요?', a: '드레이크, 로리, 아나, 보 그리고 그리피스가 함께 봤어요.' },
+        { q: '아나의 드래곤 이름은 무엇이에요?', a: '해 드래곤 케프리예요.' },
+        { q: '케프리는 왜 날지 않으려고 했어요?', a: '아프고 피곤해 보였기 때문이에요.' },
+        { q: '드레이크는 케프리에게 어떤 점을 알아챘어요?', a: '케프리의 빛이 희미해진 것을 알아챘어요.' },
+        { q: '여러분의 친구가 갑자기 기운이 없어 보이면 어떻게 할 거예요? 엄마랑 이야기해 봐요.', a: '예시: 무슨 일이 있는지 물어보고 도와줄 수 있는 게 있는지 살펴볼 거예요.' }
       ],
       questionsEn: [
-        { q: 'How many Dragon Masters are there?', qKo: '드래곤 마스터는 몇 명인가요?', a: 'There are four Dragon Masters.', aKo: '네 명의 드래곤 마스터가 있어요.' },
-        { q: 'Who trains the Dragon Masters?', qKo: '누가 드래곤 마스터들을 훈련시키나요?', a: 'Griffith the wizard trains them.', aKo: '마법사 그리피스가 훈련시켜요.' },
-        { q: 'Where do they train?', qKo: '그들은 어디서 훈련하나요?', a: "They train at King Roland's castle.", aKo: '롤랜드 왕의 성에서 훈련해요.' },
-        { q: 'What do they learn?', qKo: '그들은 무엇을 배우나요?', a: 'They learn to connect with their dragons.', aKo: '드래곤과 연결되는 법을 배워요.' },
-        { q: 'Are they becoming friends?', qKo: '그들은 친구가 되어 가고 있나요?', a: 'Yes, they are becoming good friends.', aKo: '네, 좋은 친구가 되어 가고 있어요.' }
+        { q: 'Who is watching the dragons fly?', qKo: '누가 드래곤들이 나는 것을 보고 있나요?', a: 'Drake, Rori, Ana, Bo, and Griffith are watching.', aKo: '드레이크, 로리, 아나, 보, 그리피스가 보고 있어요.' },
+        { q: "What is Ana's dragon's name?", qKo: '아나의 드래곤 이름은 무엇인가요?', a: 'Her dragon is Kepri.', aKo: '케프리예요.' },
+        { q: 'Why does Kepri not fly?', qKo: '케프리는 왜 날지 않나요?', a: 'Because she looks sick and tired.', aKo: '아프고 피곤해 보여서요.' },
+        { q: 'What does Drake notice about Kepri?', qKo: '드레이크는 케프리에 대해 무엇을 알아채나요?', a: 'He notices her glow is dim.', aKo: '케프리의 빛이 희미한 것을 알아채요.' },
+        { q: 'What kind of dragon is Kepri?', qKo: '케프리는 어떤 종류의 드래곤인가요?', a: 'Kepri is a Sun Dragon.', aKo: '해 드래곤이에요.' }
       ]
     },
     {
       number: 2,
-      title: 'Something Wrong with Kepri',
-      titleKo: '케프리에게 무언가 이상한 일이',
-      summaryKo: '훈련 시간에 아나의 해 드래곤 케프리가 평소와 달리 힘이 없어 보입니다. 케프리의 황금빛 비늘이 평소만큼 반짝이지 않고, 움직임도 느려요. 아나는 케프리가 걱정되기 시작합니다.',
+      title: 'Chapter 2: A Sick Dragon',
+      titleKo: '아픈 드래곤',
+      summaryKo: '드래곤 지하 동굴로 돌아온 케프리는 먹지도 마시지도 않아요. 황금빛 광채가 점점 사라져 가요. 아나는 눈물을 흘리고, 그리피스는 케프리를 살펴보지만 이렇게 아픈 해 드래곤은 본 적이 없어서 매우 걱정해요.',
       vocabulary: [
-        { word: 'wrong', pos: 'a.', mean: '이상한, 잘못된', example: 'Something is wrong with Kepri.', exampleKo: '케프리에게 뭔가 이상해요.' },
-        { word: 'weak', pos: 'a.', mean: '약한', example: 'Kepri looks weak today.', exampleKo: '오늘 케프리는 약해 보여요.' },
-        { word: 'golden', pos: 'a.', mean: '황금빛의', example: 'Kepri has golden scales.', exampleKo: '케프리는 황금빛 비늘이 있어요.' },
-        { word: 'scale', pos: 'n.', mean: '비늘', example: 'Her scales do not shine.', exampleKo: '그녀의 비늘이 빛나지 않아요.' },
-        { word: 'slow', pos: 'a.', mean: '느린', example: 'Kepri is very slow today.', exampleKo: '오늘 케프리는 아주 느려요.' },
-        { word: 'worry', pos: 'v.', mean: '걱정하다', example: 'Ana started to worry.', exampleKo: '아나는 걱정하기 시작했어요.' },
-        { word: 'notice', pos: 'v.', mean: '알아차리다', example: 'Drake noticed something strange.', exampleKo: '드레이크는 이상한 점을 알아차렸어요.' },
-        { word: 'usual', pos: 'a.', mean: '평소의', example: 'She was not her usual self.', exampleKo: '케프리는 평소 같지 않았어요.' },
-        { word: 'shine', pos: 'v.', mean: '빛나다', example: 'Her scales did not shine.', exampleKo: '비늘이 빛나지 않았어요.' }
+        { word: 'sick', pos: 'a.', mean: '아픈', example: 'Kepri is very sick.', exampleKo: '케프리는 아주 아파요.' },
+        { word: 'dungeon', pos: 'n.', mean: '지하 동굴', example: 'The dragons live in the dungeon.', exampleKo: '드래곤들은 지하 동굴에 살아요.' },
+        { word: 'eat', pos: 'v.', mean: '먹다', example: 'Kepri would not eat.', exampleKo: '케프리는 먹지 않았어요.' },
+        { word: 'drink', pos: 'v.', mean: '마시다', example: 'She would not drink water.', exampleKo: '그녀는 물도 마시지 않았어요.' },
+        { word: 'fade', pos: 'v.', mean: '사라지다, 희미해지다', example: 'Her glow kept fading.', exampleKo: '그녀의 빛이 계속 희미해졌어요.' },
+        { word: 'tears', pos: 'n.', mean: '눈물', example: "Ana's eyes filled with tears.", exampleKo: '아나의 눈에 눈물이 가득했어요.' },
+        { word: 'examine', pos: 'v.', mean: '살펴보다', example: 'Griffith examined Kepri carefully.', exampleKo: '그리피스는 케프리를 자세히 살펴봤어요.' },
+        { word: 'worried', pos: 'a.', mean: '걱정하는', example: 'Griffith was very worried.', exampleKo: '그리피스는 아주 걱정했어요.' },
+        { word: 'golden', pos: 'a.', mean: '황금빛의', example: 'Her golden glow was fading.', exampleKo: '그녀의 황금빛 광채가 사라지고 있었어요.' }
       ],
       questionsKo: [
-        { q: '오늘 케프리는 평소와 어떻게 달랐어요?', a: '힘이 없어 보이고 비늘도 평소만큼 반짝이지 않았어요.' },
-        { q: '케프리는 어떤 드래곤이에요?', a: '아나의 해 드래곤(Sun Dragon)이에요.' },
-        { q: '케프리의 비늘은 무슨 색이에요?', a: '황금빛 색깔이에요.' },
-        { q: '아나는 케프리를 보고 어떤 기분이 들었어요?', a: '걱정되기 시작했어요.' },
-        { q: '여러분의 강아지나 동물이 평소와 다르게 보이면 어떻게 할 거예요?', a: '예시: 가족이나 어른에게 빨리 말하고 동물병원에 데려갈 거예요.' }
+        { q: '케프리는 음식을 잘 먹었어요?', a: '아니요, 먹지도 마시지도 않았어요.' },
+        { q: '아나는 케프리를 보고 어떻게 했어요?', a: '눈물을 흘리며 울었어요.' },
+        { q: '그리피스는 케프리를 어떻게 했어요?', a: '자세히 살펴보며 무엇이 문제인지 알아내려 했어요.' },
+        { q: '그리피스는 왜 더 걱정했어요?', a: '이렇게 아픈 해 드래곤은 본 적이 없었기 때문이에요.' },
+        { q: '여러분의 반려동물이 아프면 어떤 기분이 들 것 같아요? 엄마랑 이야기해 봐요.', a: '예시: 너무 슬프고 빨리 낫게 해주고 싶을 거예요.' }
       ],
       questionsEn: [
-        { q: 'What is wrong with Kepri?', qKo: '케프리에게 무엇이 이상한가요?', a: 'She looks weak and slow.', aKo: '약하고 느려 보여요.' },
-        { q: 'What color is Kepri?', qKo: '케프리는 무슨 색인가요?', a: 'Kepri is golden.', aKo: '케프리는 황금빛이에요.' },
-        { q: "What kind of dragon is Kepri?", qKo: '케프리는 어떤 종류의 용인가요?', a: 'She is a Sun Dragon.', aKo: '해 드래곤이에요.' },
-        { q: 'How does Ana feel?', qKo: '아나는 어떻게 느끼나요?', a: 'She feels worried.', aKo: '걱정스러워해요.' },
-        { q: 'Do her scales shine like before?', qKo: '비늘이 전처럼 빛나나요?', a: 'No, they do not shine like before.', aKo: '아니요, 전처럼 빛나지 않아요.' }
+        { q: 'Does Kepri eat or drink?', qKo: '케프리는 먹거나 마시나요?', a: 'No, she will not eat or drink.', aKo: '아니요, 먹지도 마시지도 않아요.' },
+        { q: 'How does Ana feel?', qKo: '아나는 어떻게 느끼나요?', a: 'She is in tears and very sad.', aKo: '눈물을 흘리며 아주 슬퍼해요.' },
+        { q: 'Who examines Kepri?', qKo: '누가 케프리를 살펴보나요?', a: 'Griffith examines her.', aKo: '그리피스가 살펴봐요.' },
+        { q: 'Why is Griffith worried?', qKo: '그리피스는 왜 걱정하나요?', a: 'He has never seen a Sun Dragon this sick.', aKo: '이렇게 아픈 해 드래곤을 본 적이 없어서요.' },
+        { q: 'What is happening to her glow?', qKo: '그녀의 빛은 어떻게 되고 있나요?', a: 'Her golden glow keeps fading.', aKo: '황금빛 광채가 계속 희미해져요.' }
       ]
     },
     {
       number: 3,
-      title: "Kepri Won't Wake Up",
-      titleKo: '케프리가 일어나지 않아요',
-      summaryKo: '다음 날 아침, 케프리는 잠에서 깨어나지 않습니다. 아나가 아무리 불러도 케프리는 눈을 뜨지 않아요. 아나는 무서워서 울기 시작하고, 친구들은 다 같이 그리피스를 부르러 달려갑니다.',
+      title: "Chapter 3: King Roland's Threat",
+      titleKo: '롤랜드 왕의 협박',
+      summaryKo: '롤랜드 왕이 지하 동굴로 내려와요. 왕의 소중한 드래곤이 아프자 화가 났어요. 왕은 아나에게 만약 케프리가 낫지 않으면 아나를 집으로 돌려보내고 새로운 드래곤 마스터를 찾겠다고 협박해요. 아나는 케프리를 잃을까 봐 무서워해요.',
       vocabulary: [
-        { word: 'wake', pos: 'v.', mean: '깨다', example: 'Kepri would not wake up.', exampleKo: '케프리는 깨어나지 않았어요.' },
-        { word: 'morning', pos: 'n.', mean: '아침', example: 'It was early in the morning.', exampleKo: '이른 아침이었어요.' },
-        { word: 'call', pos: 'v.', mean: '부르다', example: 'Ana called her dragon.', exampleKo: '아나는 자기 드래곤을 불렀어요.' },
-        { word: 'eye', pos: 'n.', mean: '눈', example: 'Kepri did not open her eyes.', exampleKo: '케프리는 눈을 뜨지 않았어요.' },
-        { word: 'scared', pos: 'a.', mean: '무서운', example: 'Ana was very scared.', exampleKo: '아나는 아주 무서웠어요.' },
-        { word: 'cry', pos: 'v.', mean: '울다', example: 'Ana began to cry.', exampleKo: '아나는 울기 시작했어요.' },
-        { word: 'run', pos: 'v.', mean: '달리다', example: 'They ran to find Griffith.', exampleKo: '그들은 그리피스를 찾으러 달렸어요.' },
-        { word: 'shake', pos: 'v.', mean: '흔들다', example: 'Ana gently shook Kepri.', exampleKo: '아나는 케프리를 살살 흔들었어요.' },
-        { word: 'still', pos: 'a.', mean: '움직이지 않는', example: 'Kepri lay very still.', exampleKo: '케프리는 아주 가만히 누워 있었어요.' }
+        { word: 'threat', pos: 'n.', mean: '협박', example: "The king's threat scared Ana.", exampleKo: '왕의 협박에 아나는 무서워했어요.' },
+        { word: 'angry', pos: 'a.', mean: '화난', example: 'King Roland was angry.', exampleKo: '롤랜드 왕은 화났어요.' },
+        { word: 'royal', pos: 'a.', mean: '왕의, 왕실의', example: 'Kepri is a royal dragon.', exampleKo: '케프리는 왕의 드래곤이에요.' },
+        { word: 'better', pos: 'a.', mean: '더 나은', example: 'Kepri must get better soon.', exampleKo: '케프리는 빨리 나아야 해요.' },
+        { word: 'send back', pos: 'phrase', mean: '돌려보내다', example: 'The king will send Ana back home.', exampleKo: '왕은 아나를 집으로 돌려보낼 거예요.' },
+        { word: 'new', pos: 'a.', mean: '새로운', example: 'He will find a new master.', exampleKo: '그는 새로운 마스터를 찾을 거예요.' },
+        { word: 'terrified', pos: 'a.', mean: '겁에 질린', example: 'Ana was terrified.', exampleKo: '아나는 겁에 질렸어요.' },
+        { word: 'lose', pos: 'v.', mean: '잃다', example: 'Ana could not lose Kepri.', exampleKo: '아나는 케프리를 잃을 수 없었어요.' },
+        { word: 'soon', pos: 'adv.', mean: '곧', example: 'Kepri must heal soon.', exampleKo: '케프리는 곧 나아야 해요.' }
       ],
       questionsKo: [
-        { q: '다음 날 아침 케프리에게 무슨 일이 있었어요?', a: '잠에서 깨어나지 않았어요.' },
-        { q: '아나는 케프리에게 어떻게 했어요?', a: '이름을 부르고 살살 흔들어 보았어요.' },
-        { q: '케프리는 아나의 부름에 반응했어요?', a: '아니요, 전혀 반응하지 않았어요.' },
-        { q: '아나는 어떤 기분이 들었어요?', a: '무서워서 울기 시작했어요.' },
-        { q: '아나가 울고 있을 때 친구들은 어떻게 해 주면 좋을까요?', a: '예시: 따뜻하게 안아 주고 빨리 그리피스를 부르러 가 주면 좋아요.' }
+        { q: '롤랜드 왕은 왜 지하 동굴로 내려왔어요?', a: '자기 드래곤이 아프다는 것을 알고 화가 나서 내려왔어요.' },
+        { q: '왕은 아나에게 어떤 협박을 했어요?', a: '케프리가 낫지 않으면 아나를 집으로 돌려보내고 새 마스터를 찾겠다고 했어요.' },
+        { q: '아나는 왕의 말을 듣고 어떻게 느꼈어요?', a: '케프리를 잃을까 봐 겁에 질렸어요.' },
+        { q: '왕은 왜 그렇게 화가 났을까요?', a: '자기 왕국의 소중한 드래곤이 아프기 때문이에요.' },
+        { q: '여러분이 아나라면 왕의 말을 듣고 어떻게 했을까요? 엄마랑 이야기해 봐요.', a: '예시: 무서웠을 거예요. 케프리를 꼭 낫게 해주려고 더 열심히 노력했을 거예요.' }
       ],
       questionsEn: [
-        { q: 'Does Kepri wake up?', qKo: '케프리는 깨어나나요?', a: 'No, Kepri will not wake up.', aKo: '아니요, 일어나지 않아요.' },
-        { q: 'How does Ana feel?', qKo: '아나는 어떻게 느끼나요?', a: 'She feels scared and cries.', aKo: '무서워서 울어요.' },
-        { q: 'What does Ana do to Kepri?', qKo: '아나는 케프리에게 무엇을 하나요?', a: 'She calls her name and shakes her gently.', aKo: '이름을 부르고 살살 흔들어요.' },
-        { q: 'Who do they run to find?', qKo: '그들은 누구를 찾으러 달려가나요?', a: 'They run to find Griffith.', aKo: '그리피스를 찾으러 달려가요.' },
-        { q: 'Is Kepri moving?', qKo: '케프리는 움직이고 있나요?', a: 'No, she lies very still.', aKo: '아니요, 아주 가만히 누워 있어요.' }
+        { q: 'Why does King Roland come down?', qKo: '롤랜드 왕은 왜 내려오나요?', a: 'He is angry that his royal dragon is sick.', aKo: '왕의 드래곤이 아파서 화가 났어요.' },
+        { q: 'What does the king threaten?', qKo: '왕은 무엇으로 협박하나요?', a: 'He will send Ana home and find a new master.', aKo: '아나를 집으로 보내고 새 마스터를 찾겠다고 해요.' },
+        { q: 'How does Ana feel?', qKo: '아나는 어떻게 느끼나요?', a: 'She feels terrified.', aKo: '겁에 질려요.' },
+        { q: 'Is Kepri a royal dragon?', qKo: '케프리는 왕의 드래곤인가요?', a: 'Yes, Kepri belongs to the king.', aKo: '네, 케프리는 왕의 드래곤이에요.' },
+        { q: 'What does Ana not want to lose?', qKo: '아나는 무엇을 잃고 싶지 않나요?', a: 'She does not want to lose Kepri.', aKo: '케프리를 잃고 싶지 않아요.' }
       ]
     },
     {
       number: 4,
-      title: "Griffith's Worry",
-      titleKo: '그리피스의 걱정',
-      summaryKo: '그리피스가 급하게 와서 케프리를 살펴봅니다. 그는 심각한 얼굴로 케프리의 비늘을 만져 보고 호흡을 확인해요. 그리피스는 케프리가 매우 아프다고 말하며, 이런 일은 한 번도 본 적이 없다고 합니다.',
+      title: "Chapter 4: The Wizard's Potion",
+      titleKo: '마법사의 물약',
+      summaryKo: '그리피스는 자기 작업실로 가서 희귀한 약초와 드래곤 비늘, 병에 담아둔 햇빛을 섞어 치유 물약을 만들어요. 케프리에게 물약을 줘요. 케프리가 조금 마시고 약간 좋아져 보이지만, 물약만으로는 충분하지 않아요.',
       vocabulary: [
-        { word: 'worry', pos: 'n.', mean: '걱정', example: "Griffith's worry grew.", exampleKo: '그리피스의 걱정은 커졌어요.' },
-        { word: 'serious', pos: 'a.', mean: '심각한', example: 'His face was serious.', exampleKo: '그의 얼굴은 심각했어요.' },
-        { word: 'check', pos: 'v.', mean: '확인하다', example: 'He checked her breathing.', exampleKo: '그는 호흡을 확인했어요.' },
-        { word: 'sick', pos: 'a.', mean: '아픈', example: 'Kepri is very sick.', exampleKo: '케프리는 매우 아파요.' },
-        { word: 'breathe', pos: 'v.', mean: '숨쉬다', example: 'She breathed slowly.', exampleKo: '그녀는 천천히 숨을 쉬었어요.' },
-        { word: 'examine', pos: 'v.', mean: '검사하다', example: 'Griffith examined the dragon.', exampleKo: '그리피스는 용을 검사했어요.' },
-        { word: 'never', pos: 'adv.', mean: '한 번도 ~않은', example: 'He had never seen this before.', exampleKo: '그는 이걸 한 번도 본 적이 없었어요.' },
-        { word: 'frown', pos: 'v.', mean: '인상을 찌푸리다', example: 'Griffith frowned.', exampleKo: '그리피스는 인상을 찌푸렸어요.' },
-        { word: 'quickly', pos: 'adv.', mean: '빠르게', example: 'He came quickly to help.', exampleKo: '그는 도우러 빨리 왔어요.' }
+        { word: 'potion', pos: 'n.', mean: '물약', example: 'Griffith made a healing potion.', exampleKo: '그리피스는 치유 물약을 만들었어요.' },
+        { word: 'workshop', pos: 'n.', mean: '작업실', example: 'He went to his workshop.', exampleKo: '그는 자기 작업실로 갔어요.' },
+        { word: 'mix', pos: 'v.', mean: '섞다', example: 'He mixed the herbs together.', exampleKo: '그는 약초를 섞었어요.' },
+        { word: 'herb', pos: 'n.', mean: '약초', example: 'He used rare herbs.', exampleKo: '그는 희귀한 약초를 사용했어요.' },
+        { word: 'scale', pos: 'n.', mean: '비늘', example: 'Dragon scales are special.', exampleKo: '드래곤 비늘은 특별해요.' },
+        { word: 'sunlight', pos: 'n.', mean: '햇빛', example: 'He added bottled sunlight.', exampleKo: '그는 병에 담은 햇빛을 넣었어요.' },
+        { word: 'heal', pos: 'v.', mean: '치유하다', example: 'The potion can heal her.', exampleKo: '물약이 그녀를 치유할 수 있어요.' },
+        { word: 'rare', pos: 'a.', mean: '희귀한', example: 'These herbs are rare.', exampleKo: '이 약초들은 희귀해요.' },
+        { word: 'enough', pos: 'a.', mean: '충분한', example: 'The potion was not enough.', exampleKo: '물약은 충분하지 않았어요.' }
       ],
       questionsKo: [
-        { q: '그리피스는 케프리를 보고 어떤 표정을 지었어요?', a: '심각한 표정으로 인상을 찌푸렸어요.' },
-        { q: '그리피스는 케프리에게 무엇을 했어요?', a: '비늘을 만져 보고 호흡을 확인하며 검사했어요.' },
-        { q: '그리피스는 케프리의 상태에 대해 뭐라고 말했어요?', a: '매우 아프다고 말했어요.' },
-        { q: '그리피스는 이전에 이런 일을 본 적이 있었어요?', a: '아니요, 한 번도 본 적이 없다고 했어요.' },
-        { q: '여러분 가족 중 누군가가 아플 때 어떤 마음이 들까요?', a: '예시: 너무 걱정되고 빨리 낫게 해 주고 싶을 거예요.' }
+        { q: '그리피스는 어디로 가서 무엇을 만들었어요?', a: '자기 작업실에 가서 치유 물약을 만들었어요.' },
+        { q: '물약에는 어떤 재료가 들어갔어요?', a: '희귀한 약초, 드래곤 비늘, 병에 담은 햇빛이 들어갔어요.' },
+        { q: '케프리는 물약을 다 마셨어요?', a: '아니요, 조금만 마셨어요.' },
+        { q: '물약은 케프리를 완전히 낫게 했어요?', a: '아니요, 조금 나아졌지만 충분하지 않았어요.' },
+        { q: '여러분이 아플 때 가장 잘 듣는 약은 뭐예요? 엄마랑 이야기해 봐요.', a: '예시: 엄마가 끓여주는 따뜻한 미음이나 죽이 가장 잘 들어요.' }
       ],
       questionsEn: [
-        { q: 'Who comes to help Kepri?', qKo: '누가 케프리를 도우러 오나요?', a: 'Griffith the wizard comes to help.', aKo: '마법사 그리피스가 도우러 와요.' },
-        { q: 'How does Griffith look?', qKo: '그리피스는 어떤 표정인가요?', a: 'He looks serious and worried.', aKo: '심각하고 걱정스러운 표정이에요.' },
-        { q: 'What does Griffith do?', qKo: '그리피스는 무엇을 하나요?', a: 'He examines Kepri carefully.', aKo: '케프리를 조심스럽게 검사해요.' },
-        { q: 'What does he say about Kepri?', qKo: '그는 케프리에 대해 뭐라고 말하나요?', a: 'He says she is very sick.', aKo: '아주 아프다고 말해요.' },
-        { q: 'Has Griffith seen this before?', qKo: '그리피스는 이런 일을 본 적이 있나요?', a: 'No, he has never seen this before.', aKo: '아니요, 한 번도 본 적이 없어요.' }
+        { q: 'What does Griffith make?', qKo: '그리피스는 무엇을 만드나요?', a: 'He makes a healing potion.', aKo: '치유 물약을 만들어요.' },
+        { q: 'What is in the potion?', qKo: '물약에는 무엇이 들어가나요?', a: 'Rare herbs, dragon scales, and bottled sunlight.', aKo: '희귀한 약초, 드래곤 비늘, 병에 담은 햇빛이에요.' },
+        { q: 'Does Kepri drink all of it?', qKo: '케프리는 다 마시나요?', a: 'No, she drinks only a little.', aKo: '아니요, 조금만 마셔요.' },
+        { q: 'Is the potion enough?', qKo: '물약은 충분한가요?', a: 'No, the potion alone is not enough.', aKo: '아니요, 물약만으로는 충분하지 않아요.' },
+        { q: 'Where does Griffith make the potion?', qKo: '그리피스는 어디서 물약을 만드나요?', a: 'In his workshop.', aKo: '자기 작업실에서요.' }
       ]
     },
     {
       number: 5,
-      title: 'The Sun Dragon',
-      titleKo: '해 드래곤',
-      summaryKo: '그리피스는 마스터들에게 해 드래곤 케프리에 대해 자세히 이야기해 줍니다. 케프리는 먼 옛날부터 태양의 힘과 연결된 특별한 드래곤이에요. 케프리의 황금빛 광채가 점점 약해지고 있어서 매우 위험합니다.',
+      title: "Chapter 5: Ana's Story",
+      titleKo: '아나의 이야기',
+      summaryKo: '아나는 드레이크에게 자기 고향 이야기를 들려줘요. 멀리 떨어진 뜨겁고 햇빛이 가득한 나라로, 피라미드와 사막, 야자수가 있는 곳이에요. 아나는 가족을 그리워해요. 1년 전에 롤랜드 왕의 성에 왔어요. 드레이크는 케프리가 햇빛과 아나의 고향을 그리워하는 것일지도 모른다고 깨달아요.',
       vocabulary: [
-        { word: 'sun', pos: 'n.', mean: '해, 태양', example: 'Kepri is the Sun Dragon.', exampleKo: '케프리는 해 드래곤이에요.' },
-        { word: 'ancient', pos: 'a.', mean: '아주 오래된', example: 'It is an ancient story.', exampleKo: '아주 오래된 이야기예요.' },
-        { word: 'power', pos: 'n.', mean: '힘, 능력', example: 'Kepri has the power of the sun.', exampleKo: '케프리는 태양의 힘을 가졌어요.' },
-        { word: 'glow', pos: 'n.', mean: '광채, 빛남', example: 'Her glow is fading.', exampleKo: '그녀의 광채가 사라지고 있어요.' },
-        { word: 'fade', pos: 'v.', mean: '약해지다, 희미해지다', example: 'The light fades each day.', exampleKo: '빛이 매일 약해져요.' },
-        { word: 'special', pos: 'a.', mean: '특별한', example: 'Kepri is a special dragon.', exampleKo: '케프리는 특별한 드래곤이에요.' },
-        { word: 'dangerous', pos: 'a.', mean: '위험한', example: 'It is a dangerous sickness.', exampleKo: '그것은 위험한 병이에요.' },
-        { word: 'long ago', pos: 'phrase', mean: '오래전에', example: 'Long ago, dragons flew free.', exampleKo: '오래전, 드래곤들은 자유롭게 날았어요.' },
-        { word: 'story', pos: 'n.', mean: '이야기', example: 'Griffith told them a story.', exampleKo: '그리피스가 그들에게 이야기를 해줬어요.' }
+        { word: 'story', pos: 'n.', mean: '이야기', example: 'Ana told her story.', exampleKo: '아나는 자기 이야기를 했어요.' },
+        { word: 'homeland', pos: 'n.', mean: '고향', example: 'Her homeland is far away.', exampleKo: '그녀의 고향은 멀리 있어요.' },
+        { word: 'pyramid', pos: 'n.', mean: '피라미드', example: 'There are pyramids in her land.', exampleKo: '그녀의 나라에는 피라미드가 있어요.' },
+        { word: 'desert', pos: 'n.', mean: '사막', example: 'The desert is hot and sandy.', exampleKo: '사막은 뜨겁고 모래가 많아요.' },
+        { word: 'palm tree', pos: 'n.', mean: '야자수', example: 'Palm trees grow in her land.', exampleKo: '야자수가 그녀의 나라에 자라요.' },
+        { word: 'miss', pos: 'v.', mean: '그리워하다', example: 'Ana misses her family.', exampleKo: '아나는 가족을 그리워해요.' },
+        { word: 'family', pos: 'n.', mean: '가족', example: 'Her family lives far away.', exampleKo: '그녀의 가족은 멀리 살아요.' },
+        { word: 'homesick', pos: 'a.', mean: '향수병의', example: 'Kepri might be homesick.', exampleKo: '케프리는 향수병이 있을지도 몰라요.' },
+        { word: 'realize', pos: 'v.', mean: '깨닫다', example: 'Drake realized the truth.', exampleKo: '드레이크는 진실을 깨달았어요.' }
       ],
       questionsKo: [
-        { q: '케프리는 어떤 특별한 드래곤이에요?', a: '태양의 힘과 연결된 해 드래곤이에요.' },
-        { q: '케프리의 광채는 어떻게 되고 있어요?', a: '점점 약해지고 희미해지고 있어요.' },
-        { q: '그리피스가 마스터들에게 들려준 이야기는 어떤 이야기예요?', a: '아주 오래전부터 전해 내려오는 해 드래곤에 대한 이야기예요.' },
-        { q: '케프리의 상태가 왜 위험해요?', a: '광채가 사라지면 케프리도 죽을 수 있기 때문이에요.' },
-        { q: '여러분이 알고 있는 해, 별, 달과 관련된 이야기가 있으면 말해 봐요.', a: '예시: 옛날에 해와 달이 된 오누이 이야기를 들어 봤어요.' }
+        { q: '아나의 고향은 어떤 곳이에요?', a: '뜨겁고 햇빛이 가득하고 피라미드와 사막, 야자수가 있는 곳이에요.' },
+        { q: '아나는 누구를 그리워해요?', a: '멀리 있는 자기 가족을 그리워해요.' },
+        { q: '아나는 언제 왕의 성에 왔어요?', a: '1년 전에 왔어요.' },
+        { q: '드레이크는 아나의 이야기를 듣고 무엇을 깨달았어요?', a: '케프리가 햇빛과 고향을 그리워해서 아픈 것일지도 모른다고 깨달았어요.' },
+        { q: '여러분도 멀리 떨어진 곳에서 그리워질 가족이나 친구가 있어요? 엄마랑 이야기해 봐요.', a: '예시: 시골에 계신 할머니, 할아버지가 가장 그리워요.' }
       ],
       questionsEn: [
-        { q: 'What is Kepri connected to?', qKo: '케프리는 무엇과 연결되어 있나요?', a: 'She is connected to the power of the sun.', aKo: '태양의 힘과 연결되어 있어요.' },
-        { q: 'What is happening to her glow?', qKo: '그녀의 광채에 무슨 일이 있나요?', a: 'Her glow is fading.', aKo: '광채가 약해지고 있어요.' },
-        { q: 'Is Kepri an ordinary dragon?', qKo: '케프리는 평범한 용인가요?', a: 'No, she is a very special dragon.', aKo: '아니요, 아주 특별한 용이에요.' },
-        { q: 'Who tells the masters the story?', qKo: '누가 마스터들에게 이야기를 해 주나요?', a: 'Griffith tells them the story.', aKo: '그리피스가 이야기해 줘요.' },
-        { q: 'Is the situation safe?', qKo: '상황은 안전한가요?', a: 'No, it is very dangerous.', aKo: '아니요, 매우 위험해요.' }
+        { q: 'Where is Ana from?', qKo: '아나는 어디 출신인가요?', a: 'She is from a hot, sunny faraway land.', aKo: '뜨겁고 햇빛 가득한 먼 나라 출신이에요.' },
+        { q: 'What is in her homeland?', qKo: '그녀의 고향에는 무엇이 있나요?', a: 'There are pyramids, deserts, and palm trees.', aKo: '피라미드, 사막, 야자수가 있어요.' },
+        { q: 'Who does Ana miss?', qKo: '아나는 누구를 그리워하나요?', a: 'She misses her family.', aKo: '가족을 그리워해요.' },
+        { q: 'When did Ana come to the castle?', qKo: '아나는 언제 성에 왔나요?', a: 'She came a year ago.', aKo: '1년 전에 왔어요.' },
+        { q: 'What does Drake realize?', qKo: '드레이크는 무엇을 깨닫나요?', a: "Kepri might be homesick for the sun and Ana's land.", aKo: '케프리가 햇빛과 아나의 고향을 그리워하는 것일지도 몰라요.' }
       ]
     },
     {
       number: 6,
-      title: "Worm's Magic",
-      titleKo: '워름의 마법',
-      summaryKo: '드레이크는 자신의 드래곤 워름을 떠올립니다. 워름에게는 순간이동이라는 특별한 힘이 있어요. 그리피스는 워름의 힘이 케프리를 구할 열쇠가 될 수 있을지도 모른다고 말합니다. 드레이크는 마음을 다잡고 워름과 연결합니다.',
+      title: 'Chapter 6: Worm Calls',
+      titleKo: '웜이 부르다',
+      summaryKo: '드레이크는 자기 흙 드래곤 웜이 다른 드래곤들에게 마음으로 부르는 특별한 마법을 가졌다는 것을 기억해요. 웜이 먼 곳까지 메시지를 보내요. 멀리 있는 드래곤이 응답해요. 아나의 고향에 해 드래곤이나 해 드래곤을 아는 누군가가 있어요.',
       vocabulary: [
-        { word: 'magic', pos: 'n.', mean: '마법', example: "Worm's magic is very strong.", exampleKo: '워름의 마법은 아주 강해요.' },
-        { word: 'teleport', pos: 'v.', mean: '순간이동하다', example: 'Worm can teleport places.', exampleKo: '워름은 장소를 순간이동할 수 있어요.' },
-        { word: 'invisible', pos: 'a.', mean: '눈에 보이지 않는', example: 'His power is invisible.', exampleKo: '그의 능력은 눈에 보이지 않아요.' },
-        { word: 'key', pos: 'n.', mean: '열쇠', example: 'Worm might be the key.', exampleKo: '워름이 열쇠일지도 몰라요.' },
-        { word: 'save', pos: 'v.', mean: '구하다', example: 'Worm can save Kepri.', exampleKo: '워름이 케프리를 구할 수 있어요.' },
-        { word: 'connect', pos: 'v.', mean: '연결되다', example: 'Drake connected with Worm.', exampleKo: '드레이크는 워름과 연결됐어요.' },
-        { word: 'idea', pos: 'n.', mean: '생각', example: 'Griffith had a good idea.', exampleKo: '그리피스는 좋은 생각이 있었어요.' },
-        { word: 'hope', pos: 'n.', mean: '희망', example: 'Worm is their only hope.', exampleKo: '워름이 유일한 희망이에요.' },
-        { word: 'mind', pos: 'n.', mean: '마음', example: 'Drake spoke with his mind.', exampleKo: '드레이크는 마음으로 말했어요.' }
+        { word: 'call', pos: 'v.', mean: '부르다', example: 'Worm called other dragons.', exampleKo: '웜은 다른 드래곤들을 불렀어요.' },
+        { word: 'special', pos: 'a.', mean: '특별한', example: 'Worm has a special magic.', exampleKo: '웜은 특별한 마법이 있어요.' },
+        { word: 'magic', pos: 'n.', mean: '마법', example: "Worm's magic is amazing.", exampleKo: '웜의 마법은 놀라워요.' },
+        { word: 'mind', pos: 'n.', mean: '마음', example: 'He called through his mind.', exampleKo: '그는 마음으로 불렀어요.' },
+        { word: 'long-distance', pos: 'a.', mean: '먼 거리의', example: 'It was a long-distance call.', exampleKo: '먼 거리에서 부르는 거였어요.' },
+        { word: 'answer', pos: 'v.', mean: '응답하다', example: 'A distant dragon answered.', exampleKo: '먼 곳의 드래곤이 응답했어요.' },
+        { word: 'distant', pos: 'a.', mean: '먼', example: 'A distant voice spoke back.', exampleKo: '먼 목소리가 대답했어요.' },
+        { word: 'remember', pos: 'v.', mean: '기억하다', example: 'Drake remembered the magic.', exampleKo: '드레이크는 그 마법을 기억했어요.' },
+        { word: 'send', pos: 'v.', mean: '보내다', example: 'Worm sent a message.', exampleKo: '웜은 메시지를 보냈어요.' }
       ],
       questionsKo: [
-        { q: '워름의 특별한 마법은 무엇이에요?', a: '순간이동(텔레포트) 능력이에요.' },
-        { q: '그리피스는 워름의 힘에 대해 뭐라고 말했어요?', a: '케프리를 구할 열쇠가 될 수 있다고 말했어요.' },
-        { q: '드레이크는 워름과 어떻게 이야기해요?', a: '드래곤 스톤을 통해 마음으로 이야기해요.' },
-        { q: '왜 워름의 능력이 지금 중요해요?', a: '먼 곳에 빨리 도움을 구하러 갈 수 있기 때문이에요.' },
-        { q: '여러분이 마법 능력 하나를 가질 수 있다면 어떤 능력을 갖고 싶어요?', a: '예시: 워름처럼 순간이동해서 어디든 빨리 갈 수 있는 능력을 가지고 싶어요.' }
+        { q: '웜의 특별한 마법은 무엇이에요?', a: '다른 드래곤들에게 마음으로 부르는 마법이에요.' },
+        { q: '드레이크는 웜에게 무엇을 부탁했어요?', a: '먼 곳까지 드래곤들에게 메시지를 보내달라고 부탁했어요.' },
+        { q: '웜의 부름에 누가 응답했어요?', a: '아주 멀리 있는 드래곤이 응답했어요.' },
+        { q: '아나의 고향에는 무엇이 있었어요?', a: '해 드래곤이나 해 드래곤을 아는 누군가가 있었어요.' },
+        { q: '여러분도 멀리 있는 친구와 마음으로 연결될 수 있다면 누구에게 메시지를 보낼 거예요? 엄마랑 이야기해 봐요.', a: '예시: 외국에 있는 친구한테 보고 싶다고 메시지를 보낼 거예요.' }
       ],
       questionsEn: [
-        { q: "What is Worm's magic?", qKo: '워름의 마법은 무엇인가요?', a: 'He can teleport.', aKo: '순간이동할 수 있어요.' },
-        { q: 'How might Worm help?', qKo: '워름은 어떻게 도울 수 있나요?', a: 'His power could save Kepri.', aKo: '그의 힘이 케프리를 구할 수 있어요.' },
-        { q: 'Who has the idea?', qKo: '누가 그 아이디어를 내나요?', a: 'Griffith has the idea.', aKo: '그리피스가 아이디어를 내요.' },
-        { q: 'How does Drake talk to Worm?', qKo: '드레이크는 어떻게 워름과 말하나요?', a: 'He talks with his mind.', aKo: '마음으로 말해요.' },
-        { q: 'Is there hope to save Kepri?', qKo: '케프리를 구할 희망이 있나요?', a: 'Yes, Worm is their hope.', aKo: '네, 워름이 그들의 희망이에요.' }
+        { q: "What is Worm's special magic?", qKo: '웜의 특별한 마법은 무엇인가요?', a: 'He can call other dragons with his mind.', aKo: '마음으로 다른 드래곤을 부를 수 있어요.' },
+        { q: 'What does Drake ask Worm to do?', qKo: '드레이크는 웜에게 무엇을 부탁하나요?', a: 'He asks Worm to send a long-distance call.', aKo: '먼 거리까지 부름을 보내달라고 해요.' },
+        { q: 'Who answers the call?', qKo: '누가 부름에 응답하나요?', a: 'A distant dragon answers.', aKo: '먼 곳의 드래곤이 응답해요.' },
+        { q: 'Where is the dragon that answered?', qKo: '응답한 드래곤은 어디에 있나요?', a: "It is in Ana's faraway homeland.", aKo: '아나의 먼 고향에 있어요.' },
+        { q: 'How does Worm send a call?', qKo: '웜은 어떻게 부름을 보내나요?', a: 'He sends it through his mind.', aKo: '마음을 통해 보내요.' }
       ]
     },
     {
       number: 7,
-      title: 'A Plan to Help',
-      titleKo: '도와줄 계획',
-      summaryKo: '그리피스, 드레이크, 아나는 함께 머리를 모아 케프리를 구할 계획을 세웁니다. 옛날에 다른 해 드래곤을 돌봤던 늙은 드래곤 마스터를 찾아가야 한대요. 그분이 케프리의 병에 대한 답을 알지도 몰라요.',
+      title: 'Chapter 7: Far-Away Lands',
+      titleKo: '먼 나라들',
+      summaryKo: '웜은 순간이동 마법을 사용해서 드레이크와 아나, 케프리를 아나의 먼 고향으로 데려가요. 황금빛 모래와 야자수가 가득한 뜨겁고 햇빛이 강한 땅에 도착해요. 햇빛이 비늘에 닿자마자 케프리는 조금 기운을 차려요.',
       vocabulary: [
-        { word: 'plan', pos: 'n.', mean: '계획', example: 'They made a plan together.', exampleKo: '그들은 함께 계획을 세웠어요.' },
-        { word: 'help', pos: 'v.', mean: '돕다', example: 'They want to help Kepri.', exampleKo: '그들은 케프리를 돕고 싶어해요.' },
-        { word: 'old', pos: 'a.', mean: '늙은', example: 'They will find an old man.', exampleKo: '그들은 늙은 사람을 찾을 거예요.' },
-        { word: 'find', pos: 'v.', mean: '찾다', example: 'They must find the old master.', exampleKo: '그들은 늙은 마스터를 찾아야 해요.' },
-        { word: 'answer', pos: 'n.', mean: '답', example: 'He might know the answer.', exampleKo: '그가 답을 알지도 몰라요.' },
-        { word: 'cure', pos: 'n.', mean: '치료법', example: 'They need a cure for Kepri.', exampleKo: '그들은 케프리를 위한 치료법이 필요해요.' },
-        { word: 'far', pos: 'a.', mean: '먼', example: 'He lives far away.', exampleKo: '그는 멀리 살고 있어요.' },
-        { word: 'sick', pos: 'a.', mean: '아픈', example: 'Kepri is very sick.', exampleKo: '케프리는 매우 아파요.' },
-        { word: 'decide', pos: 'v.', mean: '결정하다', example: 'They decided to go.', exampleKo: '그들은 가기로 결정했어요.' }
+        { word: 'teleport', pos: 'v.', mean: '순간이동하다', example: 'Worm teleported them far away.', exampleKo: '웜은 그들을 멀리 순간이동시켰어요.' },
+        { word: 'arrive', pos: 'v.', mean: '도착하다', example: 'They arrived in a hot land.', exampleKo: '그들은 뜨거운 나라에 도착했어요.' },
+        { word: 'sand', pos: 'n.', mean: '모래', example: 'The sand was golden.', exampleKo: '모래는 황금빛이었어요.' },
+        { word: 'sunny', pos: 'a.', mean: '햇빛이 가득한', example: 'It was a sunny land.', exampleKo: '햇빛이 가득한 나라였어요.' },
+        { word: 'hot', pos: 'a.', mean: '뜨거운', example: 'The desert was very hot.', exampleKo: '사막은 아주 뜨거웠어요.' },
+        { word: 'far-away', pos: 'a.', mean: '먼', example: 'They went to far-away lands.', exampleKo: '그들은 먼 나라로 갔어요.' },
+        { word: 'perk up', pos: 'phrase', mean: '기운을 차리다', example: 'Kepri perked up in the sun.', exampleKo: '케프리는 햇빛에서 기운을 차렸어요.' },
+        { word: 'feel', pos: 'v.', mean: '느끼다', example: 'She felt the warm sun.', exampleKo: '그녀는 따뜻한 햇빛을 느꼈어요.' },
+        { word: 'land', pos: 'n.', mean: '땅, 나라', example: 'It was a beautiful land.', exampleKo: '아름다운 나라였어요.' }
       ],
       questionsKo: [
-        { q: '그들은 케프리를 구하기 위해 어떤 계획을 세웠어요?', a: '옛날에 해 드래곤을 돌봤던 늙은 드래곤 마스터를 찾아가기로 했어요.' },
-        { q: '그 늙은 드래곤 마스터는 무엇을 알고 있을 것 같아요?', a: '케프리의 병을 고칠 답이나 치료법을 알지도 몰라요.' },
-        { q: '왜 그분을 직접 찾아가야 해요?', a: '아주 먼 곳에 살아서 직접 가서 만나야 하기 때문이에요.' },
-        { q: '누가 함께 떠나기로 했어요?', a: '드레이크와 아나, 그리고 워름이 함께 떠나기로 했어요.' },
-        { q: '친구가 아플 때 여러분이 도울 수 있는 방법은 뭐가 있을까요?', a: '예시: 친구 옆에 같이 있어 주고, 어른들에게 알리고, 따뜻한 말로 응원할 수 있어요.' }
+        { q: '웜은 어떤 마법으로 친구들을 도왔어요?', a: '순간이동 마법으로 친구들을 멀리 데려갔어요.' },
+        { q: '누가 함께 아나의 고향에 갔어요?', a: '드레이크, 아나, 케프리, 그리고 웜이 함께 갔어요.' },
+        { q: '도착한 곳은 어떤 곳이었어요?', a: '뜨겁고 햇빛이 가득하고 황금빛 모래와 야자수가 있는 곳이었어요.' },
+        { q: '케프리는 햇빛을 받자 어떻게 됐어요?', a: '비늘에 햇빛이 닿자 조금 기운을 차렸어요.' },
+        { q: '여러분이 멀리 여행을 갈 수 있다면 어디로 가고 싶어요? 엄마랑 이야기해 봐요.', a: '예시: 따뜻한 바다가 있는 섬으로 가고 싶어요.' }
       ],
       questionsEn: [
-        { q: 'What is their plan?', qKo: '그들의 계획은 무엇인가요?', a: 'They will find the old Dragon Master.', aKo: '늙은 드래곤 마스터를 찾을 거예요.' },
-        { q: 'Who might know the cure?', qKo: '누가 치료법을 알 수도 있나요?', a: 'The old Dragon Master might know it.', aKo: '늙은 드래곤 마스터가 알지도 몰라요.' },
-        { q: 'Is the old master close by?', qKo: '늙은 마스터는 가까이 사나요?', a: 'No, he lives far away.', aKo: '아니요, 멀리 살아요.' },
-        { q: 'Who will go on the trip?', qKo: '누가 여행을 떠나나요?', a: 'Drake, Ana, and Worm will go.', aKo: '드레이크, 아나, 워름이 가요.' },
-        { q: 'Why must they hurry?', qKo: '왜 서둘러야 하나요?', a: 'Because Kepri is very sick.', aKo: '케프리가 매우 아프기 때문이에요.' }
+        { q: 'How do they travel to the far land?', qKo: '그들은 어떻게 먼 나라로 여행하나요?', a: 'Worm uses teleportation magic.', aKo: '웜이 순간이동 마법을 써요.' },
+        { q: 'Who goes with Drake?', qKo: '누가 드레이크와 함께 가나요?', a: 'Ana, Kepri, and Worm go with him.', aKo: '아나, 케프리, 웜이 함께 가요.' },
+        { q: "What is Ana's homeland like?", qKo: '아나의 고향은 어떤 곳인가요?', a: 'It is hot and sunny with golden sand and palm trees.', aKo: '뜨겁고 햇빛이 가득하고 황금빛 모래와 야자수가 있어요.' },
+        { q: 'How does Kepri feel in the sun?', qKo: '케프리는 햇빛 아래에서 어떻게 느끼나요?', a: 'She perks up a little.', aKo: '조금 기운을 차려요.' },
+        { q: 'What touches her scales?', qKo: '무엇이 그녀의 비늘에 닿나요?', a: 'The warm sun touches her scales.', aKo: '따뜻한 햇빛이 비늘에 닿아요.' }
       ]
     },
     {
       number: 8,
-      title: 'Off to a Faraway Land',
-      titleKo: '먼 나라로 떠나다',
-      summaryKo: '드레이크는 워름에게 마음을 집중하고 순간이동을 부탁합니다. 순간 모든 것이 사라지고, 정신을 차렸을 때 그들은 뜨거운 햇볕이 내리쬐는 사막 같은 낯선 땅에 도착해 있어요. 아주 멀리 떨어진 곳이었습니다.',
+      title: 'Chapter 8: A Strange Boy',
+      titleKo: '낯선 소년',
+      summaryKo: '그들 또래의 와티라는 남자아이가 나타나요. 와티는 아나의 사람들이 입는 옷을 입고 있어요. 와티는 케프리를 보고 깜짝 놀라요. 와티는 해 드래곤에 대해 잘 아는 것 같아요. 와티는 마을 사람들에게서 떨어진 조용한 모래 장소로 그들을 데려가요.',
       vocabulary: [
-        { word: 'faraway', pos: 'a.', mean: '먼', example: 'They went to a faraway land.', exampleKo: '그들은 먼 나라로 갔어요.' },
-        { word: 'land', pos: 'n.', mean: '땅, 나라', example: 'The land was hot and dry.', exampleKo: '그 땅은 덥고 건조했어요.' },
-        { word: 'focus', pos: 'v.', mean: '집중하다', example: 'Drake focused his mind.', exampleKo: '드레이크는 마음을 집중했어요.' },
-        { word: 'desert', pos: 'n.', mean: '사막', example: 'They arrived in a desert.', exampleKo: '그들은 사막에 도착했어요.' },
-        { word: 'sand', pos: 'n.', mean: '모래', example: 'There was sand everywhere.', exampleKo: '사방에 모래가 있었어요.' },
-        { word: 'hot', pos: 'a.', mean: '더운', example: 'The sun was very hot.', exampleKo: '햇볕이 아주 뜨거웠어요.' },
-        { word: 'arrive', pos: 'v.', mean: '도착하다', example: 'They arrived in a new place.', exampleKo: '그들은 새 장소에 도착했어요.' },
-        { word: 'strange', pos: 'a.', mean: '낯선', example: 'It was a strange place.', exampleKo: '그곳은 낯선 곳이었어요.' },
-        { word: 'sunlight', pos: 'n.', mean: '햇볕', example: 'The sunlight was bright.', exampleKo: '햇볕이 밝게 비쳤어요.' }
+        { word: 'strange', pos: 'a.', mean: '낯선, 이상한', example: 'A strange boy appeared.', exampleKo: '낯선 소년이 나타났어요.' },
+        { word: 'appear', pos: 'v.', mean: '나타나다', example: 'A boy appeared in the sand.', exampleKo: '한 소년이 모래에서 나타났어요.' },
+        { word: 'age', pos: 'n.', mean: '나이', example: 'He was their age.', exampleKo: '그는 그들 또래였어요.' },
+        { word: 'clothing', pos: 'n.', mean: '옷, 의복', example: "He wore Ana's people's clothing.", exampleKo: '그는 아나의 사람들이 입는 옷을 입었어요.' },
+        { word: 'gasp', pos: 'v.', mean: '놀라서 숨을 헐떡이다', example: 'Wati gasped at Kepri.', exampleKo: '와티는 케프리를 보고 놀라서 숨을 헐떡였어요.' },
+        { word: 'know', pos: 'v.', mean: '알다', example: 'He knew about Sun Dragons.', exampleKo: '그는 해 드래곤에 대해 알았어요.' },
+        { word: 'lead', pos: 'v.', mean: '이끌다', example: 'Wati led them away.', exampleKo: '와티는 그들을 데리고 갔어요.' },
+        { word: 'quiet', pos: 'a.', mean: '조용한', example: 'They found a quiet spot.', exampleKo: '그들은 조용한 곳을 찾았어요.' },
+        { word: 'villager', pos: 'n.', mean: '마을 사람', example: 'They hid from the villagers.', exampleKo: '그들은 마을 사람들로부터 숨었어요.' }
       ],
       questionsKo: [
-        { q: '드레이크는 워름에게 무엇을 부탁했어요?', a: '먼 나라로 순간이동해 달라고 부탁했어요.' },
-        { q: '그들이 도착한 곳은 어떤 곳이에요?', a: '뜨거운 햇볕과 모래가 가득한 사막 같은 곳이에요.' },
-        { q: '워름의 순간이동은 어떻게 일어났어요?', a: '한순간에 모든 것이 사라지더니 새 장소에 도착해 있었어요.' },
-        { q: '이 낯선 땅의 날씨는 어땠어요?', a: '아주 덥고 햇볕이 강했어요.' },
-        { q: '여러분이 갑자기 낯선 곳에 도착하면 가장 먼저 어떻게 할 거예요?', a: '예시: 주변을 잘 살펴보고 위험한 게 없는지 확인할 거예요.' }
+        { q: '누가 그들 앞에 나타났어요?', a: '와티라는 또래 남자아이가 나타났어요.' },
+        { q: '와티는 어떤 옷을 입고 있었어요?', a: '아나의 사람들이 입는 옷을 입고 있었어요.' },
+        { q: '와티는 케프리를 보고 어떻게 반응했어요?', a: '깜짝 놀라서 숨을 헐떡였어요.' },
+        { q: '와티는 그들을 어디로 데려갔어요?', a: '마을 사람들로부터 떨어진 조용한 모래 장소로 데려갔어요.' },
+        { q: '여러분이 낯선 곳에서 새로운 친구를 만나면 어떻게 인사할 거예요? 엄마랑 이야기해 봐요.', a: '예시: 안녕하고 웃으며 이름부터 알려줄 거예요.' }
       ],
       questionsEn: [
-        { q: 'Where do they go?', qKo: '그들은 어디로 가나요?', a: 'They go to a faraway land.', aKo: '먼 나라로 가요.' },
-        { q: 'How do they get there?', qKo: '거기까지 어떻게 가나요?', a: 'Worm teleports them.', aKo: '워름이 순간이동시켜요.' },
-        { q: 'What is the land like?', qKo: '그 땅은 어떤 곳인가요?', a: 'It is hot and full of sand.', aKo: '덥고 모래가 가득해요.' },
-        { q: 'Is the sun bright there?', qKo: '그곳의 해는 밝은가요?', a: 'Yes, the sunlight is very bright.', aKo: '네, 햇빛이 아주 밝아요.' },
-        { q: 'Is it a familiar place?', qKo: '익숙한 곳인가요?', a: 'No, it is a strange place.', aKo: '아니요, 낯선 곳이에요.' }
+        { q: 'Who appears in the sand?', qKo: '모래밭에 누가 나타나나요?', a: 'A strange boy named Wati appears.', aKo: '와티라는 낯선 소년이 나타나요.' },
+        { q: 'How old is Wati?', qKo: '와티는 몇 살인가요?', a: 'He is their age.', aKo: '그들 또래예요.' },
+        { q: 'What does Wati wear?', qKo: '와티는 무엇을 입고 있나요?', a: "He wears clothing from Ana's people.", aKo: '아나의 사람들 옷을 입고 있어요.' },
+        { q: 'What does Wati do when he sees Kepri?', qKo: '와티는 케프리를 보고 어떻게 하나요?', a: 'He gasps because he knows about Sun Dragons.', aKo: '해 드래곤을 알기 때문에 놀라서 숨을 헐떡여요.' },
+        { q: 'Where does Wati take them?', qKo: '와티는 그들을 어디로 데려가나요?', a: 'To a quiet sandy spot away from the villagers.', aKo: '마을 사람들과 떨어진 조용한 모래 장소로요.' }
       ]
     },
     {
       number: 9,
-      title: 'The Old Dragon Master',
-      titleKo: '늙은 드래곤 마스터',
-      summaryKo: '사막 한가운데 작은 집에서 한 늙은 노인이 나옵니다. 그는 옛날 해 드래곤을 돌봤던 드래곤 마스터예요. 그의 이름은 알 수 없지만, 노인은 드레이크와 아나를 따뜻하게 맞아 줍니다.',
+      title: 'Chapter 9: Kepri and Wati',
+      titleKo: '케프리와 와티',
+      summaryKo: '와티가 설명해요. 와티의 나라에서는 새끼 해 드래곤들이 첫해 동안 함께 친구로 지내요. 와티와 케프리는 케프리가 성으로 가기 전에 새끼 때부터 서로 알고 지냈어요. 와티와 케프리가 함께 놀고 햇빛이 케프리의 비늘을 가득 채워요. 케프리의 빛이 환하고 황금빛으로 돌아와요. 케프리가 낫고 있어요!',
       vocabulary: [
-        { word: 'old man', pos: 'phrase', mean: '노인', example: 'An old man came out of the house.', exampleKo: '집에서 한 노인이 나왔어요.' },
-        { word: 'desert', pos: 'n.', mean: '사막', example: 'His house was in the desert.', exampleKo: '그의 집은 사막에 있었어요.' },
-        { word: 'welcome', pos: 'v.', mean: '환영하다', example: 'He welcomed the children.', exampleKo: '그는 아이들을 환영했어요.' },
-        { word: 'warm', pos: 'a.', mean: '따뜻한', example: 'He gave them a warm smile.', exampleKo: '그는 따뜻한 미소를 지었어요.' },
-        { word: 'wise', pos: 'a.', mean: '지혜로운', example: 'The old man looked wise.', exampleKo: '그 노인은 지혜로워 보였어요.' },
-        { word: 'past', pos: 'n.', mean: '과거', example: 'He spoke of the past.', exampleKo: '그는 과거에 대해 이야기했어요.' },
-        { word: 'beard', pos: 'n.', mean: '수염', example: 'He had a long white beard.', exampleKo: '그는 긴 흰 수염을 가지고 있었어요.' },
-        { word: 'invite', pos: 'v.', mean: '초대하다', example: 'He invited them inside.', exampleKo: '그는 그들을 안으로 초대했어요.' },
-        { word: 'tea', pos: 'n.', mean: '차', example: 'He gave them some tea.', exampleKo: '그는 그들에게 차를 줬어요.' }
+        { word: 'explain', pos: 'v.', mean: '설명하다', example: 'Wati explained everything.', exampleKo: '와티는 모든 것을 설명했어요.' },
+        { word: 'baby', pos: 'a.', mean: '아기, 새끼', example: 'Baby dragons live together.', exampleKo: '새끼 드래곤들은 함께 살아요.' },
+        { word: 'friend', pos: 'n.', mean: '친구', example: 'They were friends as babies.', exampleKo: '그들은 새끼 때부터 친구였어요.' },
+        { word: 'first', pos: 'a.', mean: '첫번째의', example: 'They spend their first year together.', exampleKo: '그들은 첫해를 함께 보내요.' },
+        { word: 'play', pos: 'v.', mean: '놀다', example: 'They played together.', exampleKo: '그들은 함께 놀았어요.' },
+        { word: 'fill', pos: 'v.', mean: '채우다', example: 'The sun filled her scales.', exampleKo: '햇빛이 그녀의 비늘을 채웠어요.' },
+        { word: 'return', pos: 'v.', mean: '돌아오다', example: 'Her glow returned bright.', exampleKo: '그녀의 빛이 환하게 돌아왔어요.' },
+        { word: 'bright', pos: 'a.', mean: '밝은', example: 'Her glow became bright again.', exampleKo: '그녀의 빛이 다시 밝아졌어요.' },
+        { word: 'heal', pos: 'v.', mean: '낫다', example: 'Kepri was healing.', exampleKo: '케프리는 낫고 있었어요.' }
       ],
       questionsKo: [
-        { q: '드레이크와 아나는 사막에서 누구를 만났어요?', a: '옛날 해 드래곤을 돌봤던 늙은 드래곤 마스터를 만났어요.' },
-        { q: '그 노인은 어떻게 생겼어요?', a: '긴 흰 수염을 가진 지혜로워 보이는 노인이었어요.' },
-        { q: '노인은 아이들을 어떻게 맞아 줬어요?', a: '따뜻한 미소로 환영하며 집 안으로 초대했어요.' },
-        { q: '노인의 집은 어디에 있었어요?', a: '사막 한가운데 있었어요.' },
-        { q: '낯선 어른을 만났을 때 안전하게 행동하려면 어떻게 해야 할까요?', a: '예시: 어른과 함께 있고, 너무 친절해 보여도 함부로 따라가지 않는 게 좋아요.' }
+        { q: '와티의 나라에서 새끼 해 드래곤들은 어떻게 지내요?', a: '첫해 동안 함께 친구로 지내요.' },
+        { q: '와티와 케프리는 서로 아는 사이였어요?', a: '네, 새끼 때부터 친구였어요.' },
+        { q: '케프리는 어떻게 다시 빛나기 시작했어요?', a: '와티와 놀고 햇빛이 비늘을 가득 채우자 황금빛이 돌아왔어요.' },
+        { q: '케프리가 낫고 있는 것을 어떻게 알 수 있었어요?', a: '빛이 다시 환하고 황금빛으로 돌아왔어요.' },
+        { q: '여러분도 어릴 때부터 친구였던 사람이 있어요? 엄마랑 이야기해 봐요.', a: '예시: 어린이집부터 함께 다닌 친구가 있어요.' }
       ],
       questionsEn: [
-        { q: 'Who do Drake and Ana meet?', qKo: '드레이크와 아나는 누구를 만나나요?', a: 'They meet an old Dragon Master.', aKo: '늙은 드래곤 마스터를 만나요.' },
-        { q: 'What did he do long ago?', qKo: '그는 오래전에 무엇을 했나요?', a: 'He took care of a Sun Dragon.', aKo: '해 드래곤을 돌봤어요.' },
-        { q: 'How does he welcome them?', qKo: '그는 그들을 어떻게 환영하나요?', a: 'He welcomes them with a warm smile.', aKo: '따뜻한 미소로 환영해요.' },
-        { q: 'What does the old man look like?', qKo: '늙은 사람은 어떻게 생겼나요?', a: 'He has a long white beard.', aKo: '길고 흰 수염이 있어요.' },
-        { q: 'Where does he live?', qKo: '그는 어디에 사나요?', a: 'He lives in the desert.', aKo: '사막에 살아요.' }
+        { q: 'What do baby Sun Dragons do?', qKo: '새끼 해 드래곤들은 무엇을 하나요?', a: 'They spend their first year together as friends.', aKo: '첫해를 친구로 함께 보내요.' },
+        { q: 'Did Wati know Kepri before?', qKo: '와티는 전에 케프리를 알았나요?', a: 'Yes, they knew each other as babies.', aKo: '네, 새끼 때부터 알았어요.' },
+        { q: 'What do Wati and Kepri do together?', qKo: '와티와 케프리는 함께 무엇을 하나요?', a: 'They play together.', aKo: '함께 놀아요.' },
+        { q: 'What happens to her glow?', qKo: '그녀의 빛은 어떻게 되나요?', a: 'It returns bright and golden.', aKo: '환하고 황금빛으로 돌아와요.' },
+        { q: 'Is Kepri healing?', qKo: '케프리는 낫고 있나요?', a: 'Yes, she is healing.', aKo: '네, 낫고 있어요.' }
       ]
     },
     {
       number: 10,
-      title: 'The Secret of Kepri',
-      titleKo: '케프리의 비밀',
-      summaryKo: '늙은 드래곤 마스터가 케프리의 비밀을 말해 줍니다. 해 드래곤은 반드시 햇빛을 받아야 살 수 있어요. 그런데 케프리는 성 아래 어두운 지하 동굴에서만 지내서 햇빛을 받지 못해 약해지고 있던 거예요. 드레이크와 아나는 깜짝 놀랍니다.',
+      title: 'Chapter 10: Robbers!',
+      titleKo: '도둑들!',
+      summaryKo: '돌아갈 준비를 할 때, 사막 도둑들이 그들을 공격해요. 도둑들은 케프리의 황금빛 비늘이 진짜 금처럼 값나간다고 생각해서 케프리를 잡으려고 해요. 아이들은 빨리 도망쳐야 해요.',
       vocabulary: [
-        { word: 'secret', pos: 'n.', mean: '비밀', example: 'He told them a secret.', exampleKo: '그는 그들에게 비밀을 알려줬어요.' },
-        { word: 'sunlight', pos: 'n.', mean: '햇빛', example: 'Sun Dragons need sunlight.', exampleKo: '해 드래곤은 햇빛이 필요해요.' },
-        { word: 'dungeon', pos: 'n.', mean: '지하 감옥, 지하실', example: 'Kepri lived in a dungeon.', exampleKo: '케프리는 지하실에서 살았어요.' },
-        { word: 'dark', pos: 'a.', mean: '어두운', example: 'The dungeon was very dark.', exampleKo: '지하실은 아주 어두웠어요.' },
-        { word: 'need', pos: 'v.', mean: '필요로 하다', example: 'She needs the sun.', exampleKo: '그녀는 해가 필요해요.' },
-        { word: 'underground', pos: 'a.', mean: '지하의', example: 'She slept underground.', exampleKo: '그녀는 지하에서 잤어요.' },
-        { word: 'truth', pos: 'n.', mean: '진실', example: 'They learned the truth.', exampleKo: '그들은 진실을 알았어요.' },
-        { word: 'shocked', pos: 'a.', mean: '충격을 받은', example: 'Drake was shocked.', exampleKo: '드레이크는 충격을 받았어요.' },
-        { word: 'simple', pos: 'a.', mean: '간단한', example: 'The answer was simple.', exampleKo: '답은 간단했어요.' }
+        { word: 'robber', pos: 'n.', mean: '도둑', example: 'The robbers came running.', exampleKo: '도둑들이 달려왔어요.' },
+        { word: 'attack', pos: 'v.', mean: '공격하다', example: 'They attacked the children.', exampleKo: '그들은 아이들을 공격했어요.' },
+        { word: 'band', pos: 'n.', mean: '무리, 떼', example: 'A band of robbers came.', exampleKo: '도둑 무리가 왔어요.' },
+        { word: 'capture', pos: 'v.', mean: '잡다', example: 'They tried to capture Kepri.', exampleKo: '그들은 케프리를 잡으려고 했어요.' },
+        { word: 'gold', pos: 'n.', mean: '금', example: 'They thought her scales were gold.', exampleKo: '그들은 그녀의 비늘이 금이라고 생각했어요.' },
+        { word: 'worth', pos: 'a.', mean: '가치 있는', example: 'The scales were worth gold.', exampleKo: '그 비늘들은 금만큼 가치가 있었어요.' },
+        { word: 'escape', pos: 'v.', mean: '도망치다', example: 'They had to escape quickly.', exampleKo: '그들은 빨리 도망쳐야 했어요.' },
+        { word: 'quickly', pos: 'adv.', mean: '빠르게', example: 'They ran quickly.', exampleKo: '그들은 빠르게 달렸어요.' },
+        { word: 'danger', pos: 'n.', mean: '위험', example: 'They were in danger.', exampleKo: '그들은 위험에 처했어요.' }
       ],
       questionsKo: [
-        { q: '늙은 드래곤 마스터가 알려준 비밀은 무엇이었어요?', a: '해 드래곤은 반드시 햇빛을 받아야 산다는 비밀이에요.' },
-        { q: '케프리는 왜 약해졌어요?', a: '어두운 지하 동굴에서만 지내서 햇빛을 받지 못했기 때문이에요.' },
-        { q: '드레이크와 아나는 그 말을 듣고 어떻게 반응했어요?', a: '깜짝 놀라고 충격을 받았어요.' },
-        { q: '문제를 해결하기 위해 무엇을 해야 할까요?', a: '케프리를 빨리 햇빛이 있는 곳으로 데려가야 해요.' },
-        { q: '동물이나 식물이 잘 자라려면 어떤 것들이 필요할까요?', a: '예시: 햇빛, 깨끗한 물, 좋은 공기, 그리고 사랑이 필요해요.' }
+        { q: '누가 갑자기 그들을 공격했어요?', a: '사막 도둑들이 공격했어요.' },
+        { q: '도둑들은 왜 케프리를 잡고 싶어 했어요?', a: '케프리의 황금빛 비늘이 금처럼 값나간다고 생각해서요.' },
+        { q: '아이들은 어떻게 해야 했어요?', a: '빠르게 도망쳐야 했어요.' },
+        { q: '도둑들은 한 명이었어요, 여러 명이었어요?', a: '여러 명의 무리였어요.' },
+        { q: '여러분이 위험한 상황에 처하면 가장 먼저 어떻게 해야 할까요? 엄마랑 이야기해 봐요.', a: '예시: 침착하게 안전한 곳으로 도망치고 어른에게 알릴 거예요.' }
       ],
       questionsEn: [
-        { q: 'What is the secret about Kepri?', qKo: '케프리의 비밀은 무엇인가요?', a: 'She needs sunlight to live.', aKo: '살기 위해 햇빛이 필요해요.' },
-        { q: 'Where has Kepri been kept?', qKo: '케프리는 어디에 있었나요?', a: 'She has been in a dark dungeon.', aKo: '어두운 지하실에 있었어요.' },
-        { q: 'Why is she sick?', qKo: '그녀는 왜 아픈가요?', a: 'Because she has no sunlight.', aKo: '햇빛을 받지 못했기 때문이에요.' },
-        { q: 'How do Drake and Ana feel?', qKo: '드레이크와 아나는 어떻게 느끼나요?', a: 'They feel shocked.', aKo: '충격을 받았어요.' },
-        { q: 'Is the cure complicated?', qKo: '치료법이 복잡한가요?', a: 'No, it is simple.', aKo: '아니요, 간단해요.' }
+        { q: 'Who attacks them?', qKo: '누가 그들을 공격하나요?', a: 'A band of desert robbers attacks them.', aKo: '사막 도둑 무리가 공격해요.' },
+        { q: 'Why do the robbers want Kepri?', qKo: '도둑들은 왜 케프리를 원하나요?', a: 'They think her golden scales are worth gold.', aKo: '그녀의 황금빛 비늘이 금만큼 값나간다고 생각해서요.' },
+        { q: 'What must the children do?', qKo: '아이들은 무엇을 해야 하나요?', a: 'They must escape quickly.', aKo: '빨리 도망쳐야 해요.' },
+        { q: 'How many robbers come?', qKo: '도둑은 몇 명이 오나요?', a: 'A whole band of robbers comes.', aKo: '도둑 무리 전체가 와요.' },
+        { q: 'Are they in danger?', qKo: '그들은 위험한가요?', a: 'Yes, they are in danger.', aKo: '네, 위험에 처해 있어요.' }
       ]
     },
     {
       number: 11,
-      title: 'Out of the Dungeon',
-      titleKo: '지하실 밖으로',
-      summaryKo: '드레이크와 아나는 워름의 순간이동으로 다시 성으로 돌아옵니다. 그들은 서둘러 지하실로 달려가 그리피스의 도움을 받아 케프리를 조심스럽게 위층으로 옮기기 시작합니다. 케프리는 아직 약해서 움직이기 힘들어해요.',
+      title: 'Chapter 11: Flying',
+      titleKo: '비행',
+      summaryKo: '이제 다시 강해진 케프리가 날개를 펴고 이 이야기에서 처음으로 날아올라요! 드레이크, 아나, 와티가 케프리의 등에 올라타요. 그들은 사막 위를 날아 도둑들로부터 도망쳐요. 바람이 너무 시원하고 좋아요.',
       vocabulary: [
-        { word: 'return', pos: 'v.', mean: '돌아오다', example: 'They returned to the castle.', exampleKo: '그들은 성으로 돌아왔어요.' },
-        { word: 'hurry', pos: 'v.', mean: '서두르다', example: 'They hurried to the dungeon.', exampleKo: '그들은 지하실로 서둘러 갔어요.' },
-        { word: 'carry', pos: 'v.', mean: '옮기다, 나르다', example: 'They carried Kepri up.', exampleKo: '그들은 케프리를 위로 옮겼어요.' },
-        { word: 'careful', pos: 'a.', mean: '조심스러운', example: 'They were very careful.', exampleKo: '그들은 매우 조심했어요.' },
-        { word: 'upstairs', pos: 'adv.', mean: '위층으로', example: 'They moved her upstairs.', exampleKo: '그들은 그녀를 위층으로 옮겼어요.' },
-        { word: 'heavy', pos: 'a.', mean: '무거운', example: 'Kepri was very heavy.', exampleKo: '케프리는 아주 무거웠어요.' },
-        { word: 'help', pos: 'v.', mean: '돕다', example: 'Griffith helped them.', exampleKo: '그리피스가 그들을 도왔어요.' },
-        { word: 'gently', pos: 'adv.', mean: '부드럽게', example: 'They moved her gently.', exampleKo: '그들은 그녀를 부드럽게 옮겼어요.' },
-        { word: 'stairs', pos: 'n.', mean: '계단', example: 'They went up the stairs.', exampleKo: '그들은 계단을 올라갔어요.' }
+        { word: 'fly', pos: 'v.', mean: '날다', example: 'Kepri flew for the first time.', exampleKo: '케프리는 처음으로 날았어요.' },
+        { word: 'spread', pos: 'v.', mean: '펼치다', example: 'Kepri spread her wings.', exampleKo: '케프리는 날개를 펼쳤어요.' },
+        { word: 'strong', pos: 'a.', mean: '강한', example: 'Kepri was strong again.', exampleKo: '케프리는 다시 강해졌어요.' },
+        { word: 'climb', pos: 'v.', mean: '오르다', example: 'They climbed on her back.', exampleKo: '그들은 케프리 등에 올라탔어요.' },
+        { word: 'back', pos: 'n.', mean: '등', example: 'They sat on her back.', exampleKo: '그들은 그녀의 등에 앉았어요.' },
+        { word: 'soar', pos: 'v.', mean: '높이 날다', example: 'They soared over the desert.', exampleKo: '그들은 사막 위로 높이 날았어요.' },
+        { word: 'wind', pos: 'n.', mean: '바람', example: 'The wind felt wonderful.', exampleKo: '바람은 너무 좋았어요.' },
+        { word: 'wonderful', pos: 'a.', mean: '멋진', example: 'It was a wonderful feeling.', exampleKo: '멋진 기분이었어요.' },
+        { word: 'escape', pos: 'v.', mean: '도망치다', example: 'They escaped the robbers.', exampleKo: '그들은 도둑들로부터 도망쳤어요.' }
       ],
       questionsKo: [
-        { q: '드레이크와 아나는 어떻게 성으로 다시 돌아왔어요?', a: '워름의 순간이동 능력으로 돌아왔어요.' },
-        { q: '성으로 돌아온 후 그들은 무엇을 했어요?', a: '바로 지하실로 달려가서 케프리를 위층으로 옮기기 시작했어요.' },
-        { q: '그들은 케프리를 어떻게 옮겼어요?', a: '아주 조심스럽고 부드럽게 옮겼어요.' },
-        { q: '왜 그렇게 조심스럽게 했어요?', a: '케프리가 아직 매우 약하고 무거웠기 때문이에요.' },
-        { q: '몸이 약한 동물이나 사람을 옮길 때 우리는 어떻게 해야 할까요?', a: '예시: 천천히 부드럽게, 다치지 않도록 여러 사람이 함께 도와야 해요.' }
+        { q: '케프리는 이 책에서 처음으로 무엇을 했어요?', a: '날개를 펴고 하늘로 날아올랐어요.' },
+        { q: '누가 케프리의 등에 탔어요?', a: '드레이크, 아나, 와티가 탔어요.' },
+        { q: '그들은 어디로 날아갔어요?', a: '사막 위로 높이 날아 도둑들로부터 도망쳤어요.' },
+        { q: '날 때 그들은 어떤 기분이었어요?', a: '바람을 맞으며 너무 좋고 신나는 기분이었어요.' },
+        { q: '여러분이 드래곤 등에 타고 날 수 있다면 어디로 날아가고 싶어요? 엄마랑 이야기해 봐요.', a: '예시: 구름 위로 올라가서 세계 여행을 하고 싶어요.' }
       ],
       questionsEn: [
-        { q: 'How do they return to the castle?', qKo: '그들은 어떻게 성으로 돌아오나요?', a: "Worm teleports them back.", aKo: '워름이 다시 순간이동시켜요.' },
-        { q: 'Where do they go first?', qKo: '그들은 먼저 어디로 가나요?', a: 'They go to the dungeon.', aKo: '지하실로 가요.' },
-        { q: 'What do they do with Kepri?', qKo: '그들은 케프리를 어떻게 하나요?', a: 'They carry her upstairs.', aKo: '그녀를 위층으로 옮겨요.' },
-        { q: 'Who helps them?', qKo: '누가 그들을 돕나요?', a: 'Griffith helps them.', aKo: '그리피스가 도와줘요.' },
-        { q: 'Is Kepri easy to move?', qKo: '케프리는 쉽게 옮길 수 있나요?', a: 'No, she is heavy and weak.', aKo: '아니요, 무겁고 약해요.' }
+        { q: 'What does Kepri do for the first time?', qKo: '케프리는 처음으로 무엇을 하나요?', a: 'She spreads her wings and flies.', aKo: '날개를 펴고 날아요.' },
+        { q: 'Who rides on her back?', qKo: '누가 케프리 등에 타나요?', a: 'Drake, Ana, and Wati ride on her back.', aKo: '드레이크, 아나, 와티가 타요.' },
+        { q: 'Where do they fly?', qKo: '그들은 어디로 나나요?', a: 'They soar over the desert.', aKo: '사막 위로 높이 날아요.' },
+        { q: 'Why do they fly away?', qKo: '왜 그들은 날아가나요?', a: 'They escape from the robbers.', aKo: '도둑들로부터 도망쳐요.' },
+        { q: 'How does the wind feel?', qKo: '바람은 어떻게 느껴지나요?', a: 'The wind feels wonderful.', aKo: '바람이 정말 좋아요.' }
       ]
     },
     {
       number: 12,
-      title: 'Into the Sunlight',
-      titleKo: '햇빛 속으로',
-      summaryKo: '드디어 케프리는 성 밖 넓은 마당으로 나옵니다. 따뜻한 햇빛이 케프리의 황금 비늘 위로 쏟아져 내려요. 처음에는 아무 반응이 없지만, 모두 숨을 죽이고 무슨 일이 일어나는지 지켜봅니다.',
+      title: "Chapter 12: Ana's Decision",
+      titleKo: '아나의 결정',
+      summaryKo: '안전하게 착륙해요. 아나는 케프리가 이 햇빛 가득한 땅에서 얼마나 행복해 보이는지 봐요. 아나는 어려운 결정을 해야 해요. 케프리를 진짜 고향에 와티와 함께 두고 갈까, 아니면 성으로 데려갈까? 아나는 드레이크와 이야기하며 고민해요.',
       vocabulary: [
-        { word: 'sunlight', pos: 'n.', mean: '햇빛', example: 'The sunlight touched her scales.', exampleKo: '햇빛이 그녀의 비늘에 닿았어요.' },
-        { word: 'outside', pos: 'adv.', mean: '바깥에', example: 'They went outside.', exampleKo: '그들은 바깥으로 나갔어요.' },
-        { word: 'yard', pos: 'n.', mean: '마당', example: 'The castle yard was wide.', exampleKo: '성의 마당은 넓었어요.' },
-        { word: 'warm', pos: 'a.', mean: '따뜻한', example: 'The sun felt warm.', exampleKo: '햇빛이 따뜻하게 느껴졌어요.' },
-        { word: 'finally', pos: 'adv.', mean: '드디어', example: 'Finally she was outside.', exampleKo: '드디어 그녀가 밖에 있었어요.' },
-        { word: 'wait', pos: 'v.', mean: '기다리다', example: 'They waited and watched.', exampleKo: '그들은 기다리며 지켜봤어요.' },
-        { word: 'watch', pos: 'v.', mean: '지켜보다', example: 'Everyone watched closely.', exampleKo: '모두 가까이 지켜봤어요.' },
-        { word: 'quiet', pos: 'a.', mean: '조용한', example: 'They stayed very quiet.', exampleKo: '그들은 아주 조용히 있었어요.' },
-        { word: 'breath', pos: 'n.', mean: '숨', example: 'They held their breath.', exampleKo: '그들은 숨을 죽였어요.' }
+        { word: 'decision', pos: 'n.', mean: '결정', example: 'Ana made a hard decision.', exampleKo: '아나는 어려운 결정을 했어요.' },
+        { word: 'land', pos: 'v.', mean: '착륙하다', example: 'They landed safely.', exampleKo: '그들은 안전하게 착륙했어요.' },
+        { word: 'safely', pos: 'adv.', mean: '안전하게', example: 'Kepri landed safely.', exampleKo: '케프리는 안전하게 착륙했어요.' },
+        { word: 'happy', pos: 'a.', mean: '행복한', example: 'Kepri looked happy there.', exampleKo: '케프리는 그곳에서 행복해 보였어요.' },
+        { word: 'choice', pos: 'n.', mean: '선택', example: 'It was a hard choice.', exampleKo: '어려운 선택이었어요.' },
+        { word: 'true', pos: 'a.', mean: '진짜의', example: 'It was her true home.', exampleKo: '그곳은 그녀의 진짜 고향이었어요.' },
+        { word: 'leave', pos: 'v.', mean: '두고 가다', example: 'Should Ana leave Kepri here?', exampleKo: '아나는 케프리를 여기 두고 가야 할까요?' },
+        { word: 'talk', pos: 'v.', mean: '이야기하다', example: 'She talked it through with Drake.', exampleKo: '그녀는 드레이크와 그것에 대해 이야기했어요.' },
+        { word: 'hard', pos: 'a.', mean: '어려운', example: 'It was a hard decision.', exampleKo: '어려운 결정이었어요.' }
       ],
       questionsKo: [
-        { q: '케프리는 마침내 어디로 나왔어요?', a: '성 밖 넓은 마당으로 나왔어요.' },
-        { q: '케프리에게 무엇이 닿았어요?', a: '따뜻한 햇빛이 케프리의 비늘 위에 쏟아져 내렸어요.' },
-        { q: '처음에 케프리는 어떤 반응을 보였어요?', a: '아무 반응이 없었어요.' },
-        { q: '친구들은 어떻게 케프리를 지켜봤어요?', a: '숨을 죽이고 아주 조용히 지켜봤어요.' },
-        { q: '여러분이 햇볕을 받을 때 기분이 어땠어요?', a: '예시: 따뜻하고 기분이 좋아지며 마음이 편해져요.' }
+        { q: '안전하게 착륙한 후 아나는 무엇을 봤어요?', a: '케프리가 햇빛 가득한 땅에서 행복해 보이는 것을 봤어요.' },
+        { q: '아나가 해야 할 어려운 결정은 무엇이었어요?', a: '케프리를 고향에 두고 갈지, 성으로 데려갈지 결정해야 했어요.' },
+        { q: '아나는 누구와 의논했어요?', a: '드레이크와 이야기하며 의논했어요.' },
+        { q: '왜 이 결정이 어려웠을까요?', a: '케프리를 사랑하지만 케프리의 행복도 생각해야 했기 때문이에요.' },
+        { q: '여러분도 사랑하는 것 두 가지 중에 하나만 골라야 했던 적이 있어요? 엄마랑 이야기해 봐요.', a: '예시: 친구랑 놀러갈지, 가족이랑 여행 갈지 정할 때 정말 어려웠어요.' }
       ],
       questionsEn: [
-        { q: 'Where does Kepri go?', qKo: '케프리는 어디로 가나요?', a: 'She goes outside into the yard.', aKo: '밖 마당으로 가요.' },
-        { q: 'What touches her?', qKo: '무엇이 그녀에게 닿나요?', a: 'The warm sunlight touches her.', aKo: '따뜻한 햇빛이 닿아요.' },
-        { q: 'What happens at first?', qKo: '처음에는 무슨 일이 일어나나요?', a: 'Nothing happens at first.', aKo: '처음에는 아무 일도 일어나지 않아요.' },
-        { q: 'How do they watch?', qKo: '그들은 어떻게 지켜보나요?', a: 'They watch quietly and hold their breath.', aKo: '조용히 숨을 죽이고 지켜봐요.' },
-        { q: 'Is the sun warm or cold?', qKo: '햇빛은 따뜻한가요, 차가운가요?', a: 'The sun is warm.', aKo: '햇빛은 따뜻해요.' }
+        { q: 'What does Ana see Kepri doing?', qKo: '아나는 케프리가 무엇을 하는 것을 보나요?', a: 'She sees Kepri looking happy in the sunny land.', aKo: '햇빛 가득한 땅에서 행복해 보이는 것을 봐요.' },
+        { q: 'What hard choice does Ana have?', qKo: '아나는 어떤 어려운 선택을 해야 하나요?', a: 'She must choose to leave Kepri or take her back.', aKo: '케프리를 두고 갈지, 데려갈지 결정해야 해요.' },
+        { q: 'Who does Ana talk with?', qKo: '아나는 누구와 이야기하나요?', a: 'She talks with Drake.', aKo: '드레이크와 이야기해요.' },
+        { q: 'Where would Kepri stay?', qKo: '케프리는 어디에 머물게 될까요?', a: 'She would stay with Wati in her true homeland.', aKo: '진짜 고향에서 와티와 함께 머물게 될 거예요.' },
+        { q: 'Is the decision easy?', qKo: '그 결정은 쉬운가요?', a: 'No, it is very hard.', aKo: '아니요, 아주 어려워요.' }
       ]
     },
     {
       number: 13,
-      title: 'Kepri Glows Again',
-      titleKo: '케프리가 다시 빛나다',
-      summaryKo: '잠시 후 케프리의 황금 비늘이 다시 반짝이기 시작합니다. 눈도 천천히 뜨고 날개를 펄럭이며 일어납니다. 케프리가 다시 건강해졌어요! 아나는 너무 기뻐서 케프리를 꼭 껴안고 눈물을 흘립니다.',
+      title: 'Chapter 13: One Last Good-bye',
+      titleKo: '마지막 작별 인사',
+      summaryKo: '아나는 결국 케프리가 자기 곁에 있어야 한다고 결정해요. 두 사람의 유대는 진짜예요. 아나는 와티와 자기 고향에 작별 인사를 해요. 와티는 작은 태양 모양의 부적을 선물로 줘요. 그들은 와티에게 케프리를 낫게 해줘서 고맙다고 인사해요.',
       vocabulary: [
-        { word: 'glow', pos: 'v.', mean: '빛나다', example: 'Kepri began to glow.', exampleKo: '케프리가 빛나기 시작했어요.' },
-        { word: 'shine', pos: 'v.', mean: '빛나다', example: 'Her scales shone brightly.', exampleKo: '그녀의 비늘이 환하게 빛났어요.' },
-        { word: 'open', pos: 'v.', mean: '뜨다, 열다', example: 'She slowly opened her eyes.', exampleKo: '그녀는 천천히 눈을 떴어요.' },
-        { word: 'flap', pos: 'v.', mean: '퍼덕이다, 펄럭이다', example: 'Kepri flapped her wings.', exampleKo: '케프리는 날개를 퍼덕였어요.' },
-        { word: 'healthy', pos: 'a.', mean: '건강한', example: 'She was healthy again.', exampleKo: '그녀는 다시 건강해졌어요.' },
-        { word: 'hug', pos: 'v.', mean: '껴안다', example: 'Ana hugged her dragon.', exampleKo: '아나는 자기 용을 껴안았어요.' },
-        { word: 'tears', pos: 'n.', mean: '눈물', example: 'Tears ran down her face.', exampleKo: '눈물이 그녀의 얼굴을 따라 흘렀어요.' },
-        { word: 'joy', pos: 'n.', mean: '기쁨', example: 'Ana cried with joy.', exampleKo: '아나는 기쁨에 울었어요.' },
-        { word: 'cheer', pos: 'v.', mean: '환호하다', example: 'Everyone cheered loudly.', exampleKo: '모두 큰 소리로 환호했어요.' }
+        { word: 'goodbye', pos: 'n.', mean: '작별 인사', example: 'Ana said one last goodbye.', exampleKo: '아나는 마지막 작별 인사를 했어요.' },
+        { word: 'belong', pos: 'v.', mean: '속하다', example: 'Kepri belongs with Ana.', exampleKo: '케프리는 아나와 함께해야 해요.' },
+        { word: 'bond', pos: 'n.', mean: '유대', example: 'Their bond was real.', exampleKo: '그들의 유대는 진짜였어요.' },
+        { word: 'real', pos: 'a.', mean: '진짜의', example: 'Their bond is real.', exampleKo: '그들의 유대는 진짜예요.' },
+        { word: 'gift', pos: 'n.', mean: '선물', example: 'Wati gave them a gift.', exampleKo: '와티는 그들에게 선물을 줬어요.' },
+        { word: 'charm', pos: 'n.', mean: '부적, 장식', example: 'It was a sun-shaped charm.', exampleKo: '그것은 태양 모양 부적이었어요.' },
+        { word: 'shape', pos: 'n.', mean: '모양', example: 'It was the shape of the sun.', exampleKo: '그것은 태양 모양이었어요.' },
+        { word: 'thank', pos: 'v.', mean: '감사하다', example: 'They thanked Wati.', exampleKo: '그들은 와티에게 감사했어요.' },
+        { word: 'decide', pos: 'v.', mean: '결정하다', example: 'Ana decided to take Kepri home.', exampleKo: '아나는 케프리를 집으로 데려가기로 결정했어요.' }
       ],
       questionsKo: [
-        { q: '햇빛을 받은 후 케프리에게 무슨 일이 일어났어요?', a: '비늘이 다시 빛나기 시작하고 눈을 뜨고 날개도 펄럭였어요.' },
-        { q: '케프리는 건강해졌어요?', a: '네, 다시 건강해졌어요.' },
-        { q: '아나는 이 모습을 보고 어떻게 했어요?', a: '케프리를 꼭 껴안고 기쁨의 눈물을 흘렸어요.' },
-        { q: '친구들도 함께 기뻐했어요?', a: '네, 모두 큰 소리로 환호하며 기뻐했어요.' },
-        { q: '여러분이 아끼는 누군가가 다시 건강해지면 어떤 기분이 들 것 같아요?', a: '예시: 너무 기뻐서 눈물이 나고 꼭 안아 주고 싶을 거예요.' }
+        { q: '아나는 결국 어떤 결정을 했어요?', a: '케프리와 자기는 함께 있어야 한다고 결정했어요.' },
+        { q: '아나가 그렇게 결정한 이유는 뭐예요?', a: '두 사람의 유대가 진짜이기 때문이에요.' },
+        { q: '와티는 그들에게 무엇을 선물로 줬어요?', a: '작은 태양 모양 부적을 줬어요.' },
+        { q: '그들은 와티에게 무엇이라고 고마워했어요?', a: '케프리를 낫게 해줘서 고맙다고 했어요.' },
+        { q: '여러분이라면 아나처럼 케프리를 데려갈까요, 아니면 두고 갈까요? 엄마랑 이야기해 봐요.', a: '예시: 데려갈 것 같아요. 사랑하는 친구는 함께 있는 게 좋으니까요.' }
       ],
       questionsEn: [
-        { q: 'What happens to Kepri?', qKo: '케프리에게 무슨 일이 일어나나요?', a: 'She begins to glow again.', aKo: '다시 빛나기 시작해요.' },
-        { q: 'Does she wake up?', qKo: '그녀는 깨어나나요?', a: 'Yes, she opens her eyes.', aKo: '네, 눈을 떠요.' },
-        { q: 'How does Ana feel?', qKo: '아나는 어떻게 느끼나요?', a: 'She feels great joy.', aKo: '큰 기쁨을 느껴요.' },
-        { q: 'What does Ana do?', qKo: '아나는 무엇을 하나요?', a: 'She hugs Kepri and cries.', aKo: '케프리를 안고 울어요.' },
-        { q: 'Are the friends happy?', qKo: '친구들은 행복한가요?', a: 'Yes, they all cheer.', aKo: '네, 모두 환호해요.' }
+        { q: 'What does Ana decide?', qKo: '아나는 무엇을 결정하나요?', a: 'She decides Kepri belongs with her.', aKo: '케프리가 자기와 함께 있어야 한다고 결정해요.' },
+        { q: 'Why does she decide this?', qKo: '왜 그렇게 결정하나요?', a: 'Because their bond is real.', aKo: '두 사람의 유대가 진짜이기 때문이에요.' },
+        { q: 'What gift does Wati give them?', qKo: '와티는 어떤 선물을 주나요?', a: 'He gives them a small sun-shaped charm.', aKo: '작은 태양 모양 부적을 줘요.' },
+        { q: 'Why do they thank Wati?', qKo: '왜 와티에게 감사하나요?', a: 'They thank him for healing Kepri.', aKo: '케프리를 낫게 해줘서 감사해요.' },
+        { q: 'Who does Ana say goodbye to?', qKo: '아나는 누구에게 작별 인사를 하나요?', a: 'She says goodbye to Wati and her homeland.', aKo: '와티와 자기 고향에 작별 인사를 해요.' }
       ]
     },
     {
       number: 14,
-      title: 'Back to the Castle',
-      titleKo: '성으로 돌아오다',
-      summaryKo: '롤랜드 왕과 그리피스, 그리고 친구들은 한자리에 모여서 케프리의 회복을 축하합니다. 그리피스는 앞으로 케프리가 매일 햇빛을 받을 수 있도록 훈련 시간을 바꾸겠다고 약속합니다. 모두가 안도하며 웃습니다.',
+      title: 'Chapter 14: Home',
+      titleKo: '집',
+      summaryKo: '웜이 그들을 롤랜드 왕의 성으로 다시 순간이동시켜요. 그리피스와 롤랜드 왕은 깜짝 놀라요. 케프리가 건강해지고 다시 빛나고 있어요! 왕은 만족했고 아나는 케프리의 드래곤 마스터 자리를 지킬 수 있게 돼요. 드래곤 마스터들이 함께 축하해요.',
       vocabulary: [
-        { word: 'back', pos: 'adv.', mean: '돌아온', example: 'They went back to the castle.', exampleKo: '그들은 성으로 돌아갔어요.' },
+        { word: 'home', pos: 'n.', mean: '집', example: 'They came back home.', exampleKo: '그들은 집으로 돌아왔어요.' },
+        { word: 'teleport', pos: 'v.', mean: '순간이동하다', example: 'Worm teleported them back.', exampleKo: '웜이 그들을 다시 순간이동시켰어요.' },
+        { word: 'amazed', pos: 'a.', mean: '놀란', example: 'Griffith was amazed.', exampleKo: '그리피스는 놀랐어요.' },
+        { word: 'healthy', pos: 'a.', mean: '건강한', example: 'Kepri was healthy again.', exampleKo: '케프리는 다시 건강해졌어요.' },
+        { word: 'glow', pos: 'v.', mean: '빛나다', example: 'Kepri was glowing again.', exampleKo: '케프리는 다시 빛나고 있었어요.' },
+        { word: 'pleased', pos: 'a.', mean: '만족한', example: 'The king was pleased.', exampleKo: '왕은 만족했어요.' },
+        { word: 'keep', pos: 'v.', mean: '지키다', example: 'Ana keeps her place.', exampleKo: '아나는 자기 자리를 지켜요.' },
         { word: 'celebrate', pos: 'v.', mean: '축하하다', example: 'They celebrated together.', exampleKo: '그들은 함께 축하했어요.' },
-        { word: 'recover', pos: 'v.', mean: '회복하다', example: 'Kepri recovered fully.', exampleKo: '케프리는 완전히 회복했어요.' },
-        { word: 'promise', pos: 'v.', mean: '약속하다', example: 'Griffith promised to change things.', exampleKo: '그리피스는 변화를 약속했어요.' },
-        { word: 'change', pos: 'v.', mean: '바꾸다', example: 'They will change the training.', exampleKo: '그들은 훈련을 바꿀 거예요.' },
-        { word: 'every day', pos: 'phrase', mean: '매일', example: 'She must see the sun every day.', exampleKo: '그녀는 매일 해를 봐야 해요.' },
-        { word: 'relief', pos: 'n.', mean: '안도', example: 'Everyone felt relief.', exampleKo: '모두 안도감을 느꼈어요.' },
-        { word: 'smile', pos: 'v.', mean: '미소 짓다', example: 'They all smiled.', exampleKo: '모두 미소 지었어요.' },
-        { word: 'thank', pos: 'v.', mean: '감사하다', example: 'The king thanked Drake.', exampleKo: '왕은 드레이크에게 감사했어요.' }
+        { word: 'together', pos: 'adv.', mean: '함께', example: 'They were together again.', exampleKo: '그들은 다시 함께였어요.' }
       ],
       questionsKo: [
-        { q: '케프리가 회복한 후 모두는 무엇을 했어요?', a: '한자리에 모여서 회복을 축하했어요.' },
-        { q: '그리피스는 앞으로 무엇을 약속했어요?', a: '케프리가 매일 햇빛을 받을 수 있도록 훈련을 바꾸겠다고 약속했어요.' },
-        { q: '왕은 드레이크에게 어떻게 했어요?', a: '진심으로 감사하며 칭찬해 줬어요.' },
-        { q: '모두의 기분은 어땠어요?', a: '안도하며 미소 짓고 행복했어요.' },
-        { q: '여러분도 친구를 도운 후 어떤 기분이 들었어요?', a: '예시: 마음이 따뜻해지고 뿌듯하고 자랑스러웠어요.' }
+        { q: '웜은 그들을 어디로 데려갔어요?', a: '롤랜드 왕의 성으로 다시 순간이동시켰어요.' },
+        { q: '그리피스와 왕은 케프리를 보고 어떻게 반응했어요?', a: '깜짝 놀랐어요. 케프리가 건강하고 다시 빛나고 있었어요.' },
+        { q: '아나는 어떻게 됐어요?', a: '케프리의 드래곤 마스터 자리를 지킬 수 있게 됐어요.' },
+        { q: '드래곤 마스터들은 마지막에 무엇을 했어요?', a: '함께 모여서 축하했어요.' },
+        { q: '이 책에서 가장 좋아하는 장면은 어떤 장면이었어요? 엄마랑 이야기해 봐요.', a: '예시: 케프리가 햇빛을 받아 다시 빛나는 장면이 가장 좋았어요.' }
       ],
       questionsEn: [
-        { q: 'What do they do at the castle?', qKo: '성에서 그들은 무엇을 하나요?', a: 'They celebrate together.', aKo: '함께 축하해요.' },
-        { q: 'What does Griffith promise?', qKo: '그리피스는 무엇을 약속하나요?', a: 'He promises to change the training.', aKo: '훈련을 바꾸겠다고 약속해요.' },
-        { q: 'How often must Kepri see the sun?', qKo: '케프리는 해를 얼마나 자주 봐야 하나요?', a: 'She must see the sun every day.', aKo: '매일 해를 봐야 해요.' },
-        { q: 'How do they feel?', qKo: '그들은 어떻게 느끼나요?', a: 'They feel relief and joy.', aKo: '안도감과 기쁨을 느껴요.' },
-        { q: 'What does the king do?', qKo: '왕은 무엇을 하나요?', a: 'He thanks Drake.', aKo: '드레이크에게 감사해요.' }
-      ]
-    },
-    {
-      number: 15,
-      title: 'New Friends',
-      titleKo: '새로운 친구들',
-      summaryKo: '이번 일을 함께 겪으며 드레이크와 아나는 더 가까운 친구가 됩니다. 워름과 케프리도 친해져요. 드래곤 마스터들은 한 팀으로서 더 강해진 것을 느끼고, 앞으로 어떤 일이 와도 함께 헤쳐 나갈 수 있을 거라고 믿게 됩니다.',
-      vocabulary: [
-        { word: 'closer', pos: 'a.', mean: '더 가까운', example: 'They became closer friends.', exampleKo: '그들은 더 가까운 친구가 됐어요.' },
-        { word: 'team', pos: 'n.', mean: '팀', example: 'They are a strong team.', exampleKo: '그들은 강한 팀이에요.' },
-        { word: 'stronger', pos: 'a.', mean: '더 강한', example: 'Their bond is stronger.', exampleKo: '그들의 유대는 더 강해졌어요.' },
-        { word: 'trust', pos: 'v.', mean: '믿다', example: 'They trust each other now.', exampleKo: '그들은 이제 서로를 믿어요.' },
-        { word: 'future', pos: 'n.', mean: '미래', example: 'They will face the future together.', exampleKo: '그들은 미래를 함께 맞이할 거예요.' },
-        { word: 'face', pos: 'v.', mean: '마주하다', example: 'They will face any danger.', exampleKo: '그들은 어떤 위험도 마주할 거예요.' },
-        { word: 'believe', pos: 'v.', mean: '믿다', example: 'They believe in each other.', exampleKo: '그들은 서로를 믿어요.' },
-        { word: 'adventure', pos: 'n.', mean: '모험', example: 'It was a great adventure.', exampleKo: '그것은 멋진 모험이었어요.' },
-        { word: 'forever', pos: 'adv.', mean: '영원히', example: 'Friends forever.', exampleKo: '영원한 친구.' }
-      ],
-      questionsKo: [
-        { q: '드레이크와 아나는 이 모험을 통해 어떻게 변했어요?', a: '함께 어려움을 겪고 케프리를 구하면서 더 가까운 친구가 됐어요.' },
-        { q: '워름과 케프리도 친해졌어요?', a: '네, 두 드래곤도 친해졌어요.' },
-        { q: '드래곤 마스터들은 한 팀으로서 어떻게 됐어요?', a: '서로를 더 믿고 더 강한 팀이 됐어요.' },
-        { q: '그들은 앞으로 어떤 마음으로 살아갈까요?', a: '어떤 일이 와도 함께 헤쳐 나갈 수 있다고 믿으며 살아갈 거예요.' },
-        { q: '이 책에서 가장 마음에 남는 장면은 무엇이에요?', a: '예시: 케프리가 햇빛을 받고 다시 빛나기 시작하는 장면이 가장 감동적이었어요.' }
-      ],
-      questionsEn: [
-        { q: 'How did Drake and Ana change?', qKo: '드레이크와 아나는 어떻게 변했나요?', a: 'They became closer friends.', aKo: '더 가까운 친구가 됐어요.' },
-        { q: 'Did Worm and Kepri become friends?', qKo: '워름과 케프리도 친구가 됐나요?', a: 'Yes, they became friends too.', aKo: '네, 그들도 친구가 됐어요.' },
-        { q: 'How is the team now?', qKo: '팀은 이제 어떤가요?', a: 'They are stronger as a team.', aKo: '한 팀으로서 더 강해졌어요.' },
-        { q: 'Do they trust each other?', qKo: '그들은 서로를 믿나요?', a: 'Yes, they trust each other.', aKo: '네, 서로를 믿어요.' },
-        { q: 'What will they face together?', qKo: '그들은 함께 무엇을 마주할까요?', a: 'They will face the future together.', aKo: '미래를 함께 마주할 거예요.' }
+        { q: 'How do they get back home?', qKo: '그들은 어떻게 집으로 돌아가나요?', a: 'Worm teleports them back to the castle.', aKo: '웜이 성으로 순간이동시켜요.' },
+        { q: 'How do Griffith and the king feel?', qKo: '그리피스와 왕은 어떻게 느끼나요?', a: 'They are amazed because Kepri is healthy.', aKo: '케프리가 건강해져서 깜짝 놀라요.' },
+        { q: 'Is Kepri glowing again?', qKo: '케프리는 다시 빛나나요?', a: 'Yes, she is glowing brightly.', aKo: '네, 환하게 빛나요.' },
+        { q: 'Does Ana keep her place?', qKo: '아나는 자기 자리를 지키나요?', a: "Yes, she keeps her place as Kepri's Dragon Master.", aKo: '네, 케프리의 드래곤 마스터 자리를 지켜요.' },
+        { q: 'What do the Dragon Masters do at the end?', qKo: '드래곤 마스터들은 마지막에 무엇을 하나요?', a: 'They celebrate together.', aKo: '함께 축하해요.' }
       ]
     }
   ]
