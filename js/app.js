@@ -93,6 +93,21 @@
   /* -------------------------------------------------- *
    *  Views
    * -------------------------------------------------- */
+  function renderCover(book, sizeClass) {
+    const color = escape(book.color || 'color-1');
+    const emoji = escape(book.emoji || '📖');
+    const cls = sizeClass ? ` ${sizeClass}` : '';
+    const img = book.coverUrl
+      ? `<img class="book-cover-img" src="${escape(book.coverUrl)}" alt="${escape(book.title)} 표지" loading="lazy" onload="this.classList.add('loaded')" onerror="this.parentNode.removeChild(this)">`
+      : '';
+    return `
+      <div class="book-cover ${color}${cls}">
+        <span class="book-cover-emoji">${emoji}</span>
+        ${img}
+      </div>
+    `;
+  }
+
   function viewHome() {
     setTitle('AR 3점대 인기 원서 챕터북 가이드');
 
@@ -101,7 +116,7 @@
       const chapters = data && data.chapters ? data.chapters.length : 0;
       return `
         <a class="book-card" href="#/book/${escape(book.slug)}">
-          <div class="book-cover ${escape(book.color || 'color-1')}">${escape(book.emoji || '📖')}</div>
+          ${renderCover(book)}
           <div class="book-meta">
             <span class="tag ar">AR ${escape(book.ar)}</span>
             <span class="tag chapters">${chapters}챕터</span>
@@ -213,7 +228,7 @@
       </div>
 
       <section class="book-hero">
-        <div class="book-cover ${escape(book.color || 'color-1')}">${escape(book.emoji || '📖')}</div>
+        ${renderCover(book, 'book-hero-cover')}
         <div class="book-info">
           <div class="book-meta">
             <span class="tag ar">AR ${escape(book.ar)}</span>
