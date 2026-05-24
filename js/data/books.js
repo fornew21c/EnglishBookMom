@@ -65,19 +65,10 @@ window.BOOKS = [
     color: 'color-3',
     coverUrl: 'https://covers.openlibrary.org/b/isbn/9780545646260-L.jpg?default=false'
   },
-  {
-    slug: 'dragon-3',
-    title: 'Secret of the Water Dragon',
-    titleKo: '물의 용의 비밀',
-    series: 'Dragon Masters #3',
-    seriesKo: '드래곤 마스터즈 3권',
-    ar: '3.1',
-    descKo: '조용한 보와 그의 물 드래곤 슈가 환영을 통해 드래곤들을 노리는 사악한 마법사를 발견하는 이야기.',
-    aboutKo: '말수가 적은 새로운 드래곤 마스터 보. 그의 물 드래곤 슈는 물에 환영을 보여 줄 수 있어요. 어느 날 슈가 보여 준 환영 속에는 드래곤을 훔치려는 정체불명의 마법사가 있었는데… 자기 자신을 믿게 되는 보의 성장 이야기.',
-    emoji: '🐲',
-    color: 'color-4',
-    coverUrl: 'https://covers.openlibrary.org/b/isbn/9780545646284-L.jpg?default=false'
-  },
+  // NOTE: dragon-3, mercy-2, mercy-3, atoz-2, atoz-3, atoz-4 are intentionally
+  // hidden from the home page until verified against the actual books.
+  // Their data files remain in /js/data/ and can be re-added here after a
+  // table-of-contents check.
   {
     slug: 'mercy-1',
     title: 'Mercy Watson to the Rescue',
@@ -90,32 +81,6 @@ window.BOOKS = [
     emoji: '🐷',
     color: 'color-6',
     coverUrl: 'https://covers.openlibrary.org/b/isbn/9780763622701-L.jpg?default=false'
-  },
-  {
-    slug: 'mercy-2',
-    title: 'Mercy Watson Goes for a Ride',
-    titleKo: '드라이브 가는 머시 왓슨',
-    series: 'Mercy Watson #2',
-    seriesKo: '머시 왓슨 2권',
-    ar: '2.7',
-    descKo: '왓슨 아저씨와 돼지 머시가 핑크 컨버터블로 토요일 드라이브를 떠나며 벌어지는 좌충우돌 소동.',
-    aboutKo: '토요일은 왓슨 아저씨의 드라이브 날. 머시도 함께 핑크 컨버터블에 올라타고, 옆집 베이비 링컨까지 따라나섭니다. 머시가 운전대를 잡으면서 동네가 발칵 뒤집히고, 마지막엔 모두 따뜻한 버터 토스트로 화해해요.',
-    emoji: '🚗',
-    color: 'color-3',
-    coverUrl: 'https://covers.openlibrary.org/b/isbn/9780763636722-L.jpg?default=false'
-  },
-  {
-    slug: 'mercy-3',
-    title: 'Mercy Watson Fights Crime',
-    titleKo: '범죄와 싸우는 머시 왓슨',
-    series: 'Mercy Watson #3',
-    seriesKo: '머시 왓슨 3권',
-    ar: '2.6',
-    descKo: '카우보이가 되고 싶은 좀도둑 르로이 닝커가 왓슨네 집에 몰래 들어왔다가 머시에게 쫓기게 되는 이야기.',
-    aboutKo: '작고 못된 카우보이 르로이 닝커가 왓슨네 부엌에서 토스터를 훔치려 합니다. 한밤중 토스트 냄새에 잠 깬 머시는 그를 “토스트를 가져온 작은 카우보이”로 착각하고 신나게 쫓아가요. 결국 모두 한 식탁에 둘러앉아 따뜻한 토스트를 나눠 먹는 따뜻한 결말.',
-    emoji: '🤠',
-    color: 'color-2',
-    coverUrl: 'https://covers.openlibrary.org/b/isbn/9780763649517-L.jpg?default=false'
   },
   {
     slug: 'dragon-trainer-1',
@@ -143,43 +108,5 @@ window.BOOKS = [
     color: 'color-5',
     coverUrl: 'https://covers.openlibrary.org/b/isbn/9780679881681-L.jpg?default=false'
   },
-  {
-    slug: 'atoz-2',
-    title: 'The Bald Bandit',
-    titleKo: '대머리 강도',
-    series: 'A to Z Mysteries #2 (B)',
-    seriesKo: 'A to Z 미스터리 B권',
-    ar: '3.4',
-    descKo: '은행 강도 사건을 우연히 비디오로 찍게 된 세 친구가 진짜 범인의 정체를 파헤치는 이야기.',
-    aboutKo: '조시는 새로 생긴 캠코더로 마을을 찍고 있다가 우연히 은행 강도 장면을 녹화하게 됩니다. 영상 속 “대머리 강도”에게 이상한 점을 발견한 딩크, 조시, 루스 로즈는 단서를 따라 검은 자동차의 흔적을 쫓는데… 가짜 변장의 비밀이 풀려요.',
-    emoji: '🎥',
-    color: 'color-1',
-    coverUrl: 'https://covers.openlibrary.org/b/isbn/9780679884491-L.jpg?default=false'
-  },
-  {
-    slug: 'atoz-3',
-    title: 'The Canary Caper',
-    titleKo: '사라진 카나리아',
-    series: 'A to Z Mysteries #3 (C)',
-    seriesKo: 'A to Z 미스터리 C권',
-    ar: '3.4',
-    descKo: '그린 론 마을에서 카나리아를 비롯한 애완동물들이 차례로 사라지고, 세 친구가 동물 도둑을 추적해요.',
-    aboutKo: '데이비스 할머니의 카나리아 트위티가 사라진 것을 시작으로, 동네 곳곳에서 애완동물들이 자취를 감춥니다. 깃털과 발자국 같은 단서를 따라 수상한 새 이웃을 추적해 가는 미스터리. 동물 사랑과 우정이 함께 빛나요.',
-    emoji: '🐦',
-    color: 'color-2',
-    coverUrl: 'https://covers.openlibrary.org/b/isbn/9780679894506-L.jpg?default=false'
-  },
-  {
-    slug: 'atoz-4',
-    title: 'The Deadly Dungeon',
-    titleKo: '위험한 지하 감옥',
-    series: 'A to Z Mysteries #4 (D)',
-    seriesKo: 'A to Z 미스터리 D권',
-    ar: '3.4',
-    descKo: '진짜 중세 성 "무스 매너"를 찾아간 세 친구가 사라진 보물과 지하 감옥의 미스터리를 풀어요.',
-    aboutKo: '딩크의 메리 이모가 사는 무스 매너는 뉴욕에 있는 진짜 중세 성입니다. 밤마다 들리는 이상한 소리, 사라진 보석 왕관, 지하 감옥의 유령 전설… 세 친구는 두려움을 누르고 어두운 지하로 내려가 진실을 마주합니다.',
-    emoji: '🏰',
-    color: 'color-5',
-    coverUrl: 'https://covers.openlibrary.org/b/isbn/9780679890799-L.jpg?default=false'
-  }
+  // atoz-2/3/4 hidden until verified (see note above).
 ];
