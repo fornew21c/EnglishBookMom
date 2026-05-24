@@ -131,17 +131,18 @@
 
     app.innerHTML = `
       <section class="hero">
+        <p class="hero-eyebrow">엄마와 아이를 위한 원서 가이드</p>
         <div class="hero-content">
-          <h1>영어가 서툰 엄마도<br />아이와 함께 원서를 읽을 수 있어요</h1>
+          <h1>영어가 서툴러도,<br />아이와 함께 <em>원서를 읽어요.</em></h1>
           <p>
-            AR 3점대 인기 챕터북을 챕터별로 단어와 질문으로 정리했어요.
-            엄마는 한국어로 묻고, 아이는 한국어로 답하면서 이해도를 확인해 보세요.
+            인기 챕터북을 챕터별로 단어와 질문으로 정리했어요.
+            엄마는 한국어로 묻고, 아이는 한국어로 답하며 이해도를 자연스럽게 확인해 보세요.
+            영어 단어와 문장은 탭하면 발음을 들을 수 있어요.
           </p>
         </div>
-        <span class="hero-emoji">📚</span>
       </section>
 
-      <h2 class="section-title">📖 도서 목록</h2>
+      <h2 class="section-title">Selected Reading <span style="font-family:var(--f-ko);font-size:0.75em;color:var(--muted);letter-spacing:-0.005em;margin-left:8px;">전체 도서</span></h2>
       <p class="section-sub">읽고 싶은 책을 골라보세요. 챕터별 학습 자료가 준비되어 있어요.</p>
 
       <div class="book-grid">${cards}</div>
@@ -242,7 +243,7 @@
         </div>
       </section>
 
-      <h2 class="section-title">📑 챕터 목록</h2>
+      <h2 class="section-title">Chapters <span style="font-family:var(--f-ko);font-size:0.75em;color:var(--muted);letter-spacing:-0.005em;margin-left:8px;">챕터 목록</span></h2>
       <p class="section-sub">챕터를 골라 단어와 질문을 확인하세요.</p>
 
       <div class="chapter-list">${list || '<p>준비 중인 책입니다.</p>'}</div>
