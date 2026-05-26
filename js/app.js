@@ -248,6 +248,7 @@
       return `
         <a class="book-card" href="#/book/${escape(book.slug)}">
           ${renderCover(book)}
+          ${book.verification === 'draft' ? `<span class="verification-badge draft" title="단어 목록이 아직 실제 책 본문과 교차 검증되지 않았어요. 참고용으로 사용해 주세요.">📝 검수 중</span>` : ''}
           <div class="book-meta">
             <span class="tag ar">AR ${escape(book.ar)}</span>
             <span class="tag chapters">${total}챕터</span>
@@ -338,6 +339,9 @@
 
         <h2>9. 인쇄해서 활용하세요</h2>
         <p>각 챕터 페이지에서 <b>인쇄 버튼</b>을 눌러 워크북처럼 사용할 수 있어요. 가족 독서 시간을 만들어 보세요.</p>
+
+        <h2>10. 📝 “검수 중” 배지에 대해</h2>
+        <p>책 표지에 <b>📝 검수 중</b> 배지가 붙은 권은, 챕터별 단어와 줄거리를 <b>공개된 교육자 가이드와 줄거리 자료를 바탕으로 정리한 임시 데이터</b>예요. 실제 책 본문과 한 챕터씩 교차 검증하면 배지가 사라지고 정식 자료로 전환됩니다. 검수 중인 책도 학습용으로 충분히 활용할 수 있지만, 일부 단어가 책에 실제로 나오지 않거나 챕터 순서가 다를 수 있다는 점 참고해 주세요.</p>
       </div>
     `;
   }
@@ -381,8 +385,15 @@
           <div class="book-meta">
             <span class="tag ar">AR ${escape(book.ar)}</span>
             <span class="tag chapters">${chapters.length}챕터</span>
+            ${book.verification === 'draft' ? `<span class="tag draft">📝 검수 중</span>` : ''}
           </div>
           <p class="book-about">${escape(book.aboutKo || book.descKo || '')}</p>
+          ${book.verification === 'draft' ? `
+            <div class="draft-notice">
+              <strong>📝 이 책은 아직 검수 중이에요.</strong>
+              <p>챕터별 단어와 줄거리는 ${book.sourcesKo ? escape(book.sourcesKo.join(', ')) : '공개된 자료'}를 바탕으로 정리한 임시 데이터입니다. 실제 책 본문과 교차 검증이 끝나면 이 표시가 사라집니다.</p>
+            </div>
+          ` : ''}
           ${renderProgressBar(slug)}
         </div>
       </section>
