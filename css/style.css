@@ -244,6 +244,8 @@ main {
   line-height: 1.05;
   margin: 0 0 28px;
   color: var(--text);
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .hero h1 em {
